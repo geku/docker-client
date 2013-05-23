@@ -1,5 +1,8 @@
 # To Do
 
+* Document code with YARD
+
+
 * All connections need to be SSL
 * Authentication is required for API (needs to be added on Docker side)
 
