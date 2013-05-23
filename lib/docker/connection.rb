@@ -46,15 +46,15 @@ class Docker::Connection
     
     def perform_request(verb, path, headers)
       @curl.url = "#{@base_url}#{path}"
-      assign_headers(headers)
-      # @curl.method(:GET)
+      set_headers(headers)
       @curl.http(verb)
       Response.new(@curl.body_str, @curl.response_code, @curl.content_type)
     end
     
-    def assign_headers(headers = {})
-      # TODO assign headers to CURL
-    # curl.headers["User-Agent"] = "myapp-0.0"
+    def set_headers(headers)
+      headers.each do |key, value|
+        @curl.headers[key] = value
+      end
     end
   
 end

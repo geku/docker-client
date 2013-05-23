@@ -1,0 +1,30 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/containers/06c0af9e8696/stop
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAyMyBNYXkgMjAxMyAyMzoxNToxNCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Thu, 23 May 2013 23:15:14 GMT
+recorded_with: VCR 2.5.0

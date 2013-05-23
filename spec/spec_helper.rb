@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 
+require 'webmock/rspec'
 require 'vcr'
 require 'docker'
 
