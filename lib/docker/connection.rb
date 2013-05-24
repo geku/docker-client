@@ -6,7 +6,7 @@ end
 
 class Docker::Connection
   
-  class Response < Struct.new(:body, :status, :content_type)
+  class Response < Struct.new(:body, :status, :content_type, :timeout)
     def body_as_json
       MultiJson.load(body)
     end
@@ -16,12 +16,6 @@ class Docker::Connection
     @curl = Curl::Easy.new
     @base_url = options[:base_url]
     raise ArgumentError, ':base_url missing' unless @base_url
-    
-    
-  # easy.url = 'http://10.0.5.5:4243/containers/d1158045962d/attach?stream=1&stdout=1'
-  # # easy.timeout = 60     # to stop attaching after a certain time. Throws Curl::Err::TimeoutError
-  # easy.on_body {|data| puts "rec: #{data}"; data.size }
-  # easy.http('POST')   # blocks until connection is closed
   end
   
   def get(path, headers = {})
@@ -36,19 +30,33 @@ class Docker::Connection
     perform_request(:DELETE, path, headers)
   end
   
-  # Needs a block
-  def stream(path)
-    
+  def stream(path, timeout = nil, headers = {}, &block)
+    raise ArgumentError, 'Block required to handle streaming response' if block.nil?
+    begin
+      timeout_raised = false
+      set_url(path)
+      set_headers(headers)
+      @curl.timeout = timeout if timeout
+      @curl.on_body {|data| block.call(data); data.size }
+      @curl.http(:POST)
+    rescue Curl::Err::TimeoutError => e
+      timeout_raised = true
+    end
+    Response.new(@curl.body_str, @curl.response_code, @curl.content_type, timeout_raised)
   end
   
   
   private
     
     def perform_request(verb, path, headers)
-      @curl.url = "#{@base_url}#{path}"
+      set_url(path)
       set_headers(headers)
       @curl.http(verb)
       Response.new(@curl.body_str, @curl.response_code, @curl.content_type)
+    end
+    
+    def set_url(path)
+      @curl.url = "#{@base_url}#{path}"
     end
     
     def set_headers(headers)
