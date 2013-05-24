@@ -28,6 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "multi_json"
   spec.add_runtime_dependency "json"
   spec.add_runtime_dependency "curb"
+  spec.add_runtime_dependency "guard"
+  spec.add_runtime_dependency "guard-rspec"
   
   # interesting GEMs
   # https://github.com/intridea/hashie
