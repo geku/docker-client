@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/ps?all=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxMToyMDo1OSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siSWQiOiI0YzA5MDk0ZDQ2MGE0M2NkMWZhNjhlNzc5NjkzZWM4ZWQwYjM5
+        YWM2ZjIwMjdkNmI3MWNhNDQ4ZDYxZmYzODhhIiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7IGRvIGVj
+        aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzY5
+        MzkxNzQ5LCJTdGF0dXMiOiJVcCA0NSBtaW51dGVzIiwiUG9ydHMiOiIifSx7
+        IklkIjoiMDZjMGFmOWU4Njk2OTcxMmZiYThlNDFhN2M4MmU4OGI4NzZkNmZm
+        YTU3YTBlZTI5OTNjYjQ1ZTMwMjZhZmI4OSIsIkltYWdlIjoiYmFzZTpsYXRl
+        c3QiLCJDb21tYW5kIjoiL2Jpbi9zaCAtYyB3aGlsZSB0cnVlOyBkbyBlY2hv
+        IGhlbGxvIHdvcmxkOyBzbGVlcCAxOyBkb25lIiwiQ3JlYXRlZCI6MTM2OTM1
+        MDE1OSwiU3RhdHVzIjoiRXhpdCAxMzciLCJQb3J0cyI6IiJ9XQ==
+    http_version: 
+  recorded_at: Fri, 24 May 2013 11:21:00 GMT
+recorded_with: VCR 2.5.0

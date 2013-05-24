@@ -1,0 +1,33 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/929274fd9a4f/changes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxMTozMTowMyBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siUGF0aCI6Ii9kZXYiLCJLaW5kIjowfSx7IlBhdGgiOiIvZGV2L2ttc2ci
+        LCJLaW5kIjoxfSx7IlBhdGgiOiIvdG1wIiwiS2luZCI6MH0seyJQYXRoIjoi
+        L3RtcC9jaGFuZ2VzIiwiS2luZCI6MX1d
+    http_version: 
+  recorded_at: Fri, 24 May 2013 11:31:03 GMT
+recorded_with: VCR 2.5.0

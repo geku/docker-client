@@ -1,8 +1,9 @@
 # To Do
 
+* Add Rake task to prepare live/recording test env!
+* Error handling depending on status code.
 * Document code with YARD
-
-
+* Add thin layer of models (e.g. to create a new container)
 * All connections need to be SSL
 * Authentication is required for API (needs to be added on Docker side)
 

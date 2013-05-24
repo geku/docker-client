@@ -13,12 +13,19 @@ class Docker::Resource::Container < Docker::Resource::Base
   # since
   # before
   def list(options = {})
-    @connection.get('/containers/ps').body_as_json
+    @connection.get('/containers/ps', options).body_as_json
   end
   
   # Create options into JSON body
-  def create(options = {})
+  def create(command, image = 'base', options = {})
+    command = [command] if command.is_a?(String)
+    body = {'Cmd' => command, 'Image' => image}
+    body = options.merge(body)
+    json_body = MultiJson.dump(body)
     
+    response = @connection.post("/containers/create", json_body, {'Content-Type' => 'application/json'})
+    raise(Docker::Error::NotFoundError) if response.status == 404
+    response.body_as_json
   end
   
   # inspect is a Ruby internal method that should not be overwritten 
@@ -36,9 +43,8 @@ class Docker::Resource::Container < Docker::Resource::Base
     
   end
   
-  # TODO doesn't make sense to return body as only status is returned!
   def start(container_id)
-    @connection.post_status("/containers/#{container_id}/start")
+    @connection.post("/containers/#{container_id}/start").status
   end
   
   def stop(container_id)
@@ -75,8 +81,11 @@ class Docker::Resource::Container < Docker::Resource::Base
   
   # Options:
   # v remove volumes of container
-  def remove(container_id, options = {})
-    @connection.delete("/containers/#{container_id}").status
+  def remove(container_id, delete_volumes = false)
+    params = {v: delete_volumes}
+    status = @connection.delete("/containers/#{container_id}", params).status
+    raise(Docker::Error::ContainerNotFound) if status == 404
+    status == 204
   end
   
 end

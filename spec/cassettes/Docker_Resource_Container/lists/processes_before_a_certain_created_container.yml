@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/ps?before=4c09094d460a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxMToyMDo1OSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siSWQiOiIwNmMwYWY5ZTg2OTY5NzEyZmJhOGU0MWE3YzgyZTg4Yjg3NmQ2
+        ZmZhNTdhMGVlMjk5M2NiNDVlMzAyNmFmYjg5IiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7IGRvIGVj
+        aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzY5
+        MzUwMTU5LCJTdGF0dXMiOiJFeGl0IDEzNyIsIlBvcnRzIjoiIn1d
+    http_version: 
+  recorded_at: Fri, 24 May 2013 11:21:00 GMT
+recorded_with: VCR 2.5.0

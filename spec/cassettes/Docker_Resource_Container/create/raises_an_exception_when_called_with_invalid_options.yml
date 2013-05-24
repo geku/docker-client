@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/containers/create
+    body:
+      encoding: UTF-8
+      string: ! '{"PortSpecs":"443","Cmd":["echo","hello world"],"Image":"base"}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 500
+      message: !binary |-
+        SW50ZXJuYWwgU2VydmVyIEVycm9y
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxNTozMDowOSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        anNvbjogY2Fubm90IHVubWFyc2hhbCBzdHJpbmcgaW50byBHbyB2YWx1ZSBv
+        ZiB0eXBlIFtdc3RyaW5nCg==
+    http_version: 
+  recorded_at: Fri, 24 May 2013 15:30:09 GMT
+recorded_with: VCR 2.5.0

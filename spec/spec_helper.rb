@@ -1,9 +1,11 @@
 require 'rubygems'
 require 'bundler/setup'
 
+require 'awesome_print'
 require 'webmock/rspec'
 require 'vcr'
 require 'docker'
+require 'helpers'
 
 
 VCR.configure do |config|
@@ -18,6 +20,7 @@ RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run :focus
   config.order = 'random'
+  config.include Helpers
 end
 
 

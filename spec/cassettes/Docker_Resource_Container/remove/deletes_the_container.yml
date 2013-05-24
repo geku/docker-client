@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/containers/create
+    body:
+      encoding: UTF-8
+      string: ! '{"Volumes":{"/var/lib/app":{}},"Cmd":["env"],"Image":"base"}'
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxNToyODozNCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImNiNGY3MGZiYWFjYiIsIldhcm5pbmdzIjpudWxsfQ==
+    http_version: 
+  recorded_at: Fri, 24 May 2013 15:28:34 GMT
+- request:
+    method: delete
+    uri: http://10.0.5.5:4243/containers/cb4f70fbaacb?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNCBNYXkgMjAxMyAxNToyODozNCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Fri, 24 May 2013 15:28:34 GMT
+recorded_with: VCR 2.5.0

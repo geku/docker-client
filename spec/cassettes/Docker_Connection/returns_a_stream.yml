@@ -1,0 +1,24 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/containers/4c09094d460a/attach?stdout=1&stream=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Fri, 24 May 2013 15:12:40 GMT
+recorded_with: VCR 2.5.0
