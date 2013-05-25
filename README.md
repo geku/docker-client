@@ -70,7 +70,7 @@ containers.remove(container_id)
 
 ### Run tests
 
-All tests are stubbed with VCR. You can edit the setting `config.default_cassette_options` in spec_helper.rb` to run the tests against the docker API. Set it to `{:record => :all}`. This will  alos re-record all VCR request/response. To run the tests stubbed again uncomment the before mentioned setting.
+All tests are stubbed with VCR. You can edit the setting `config.default_cassette_options` in `spec_helper.rb` to run the tests against the docker API. Set it to `{:record => :all}`. This will  alos re-record all VCR request/response. To run the tests stubbed again uncomment the before mentioned setting.
 
 ## Contributing
 
@@ -83,5 +83,5 @@ All tests are stubbed with VCR. You can edit the setting `config.default_cassett
 
 ## License
 
-MIT License. Copyright 2013 Georg Kunz. http://www.georgkunz.com
+MIT License. Copyright 2013 Georg Kunz.
 
