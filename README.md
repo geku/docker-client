@@ -1,4 +1,4 @@
-# Docker
+# Docker Client
 
 Docker client library to access the Docker remote API.
 

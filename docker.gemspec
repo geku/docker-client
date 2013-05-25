@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Georg Kunz']
   spec.email         = ['kwd@gmx.ch']
   spec.description   = %q{Docker client}
-  spec.summary       = %q{Docker client library accessing the Docker remote API.}
+  spec.summary       = %q{Docker client library to access the Docker remote API.}
   spec.homepage      = 'http://georgkunz.com'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 1.9'
