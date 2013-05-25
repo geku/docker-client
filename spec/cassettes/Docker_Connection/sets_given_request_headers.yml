@@ -6,7 +6,9 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ''
-    headers: {}
+    headers:
+      Content-Type:
+      - application/json
   response:
     status:
       code: 404
@@ -18,7 +20,7 @@ http_interactions:
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
       !binary "RGF0ZQ==":
       - !binary |-
-        VGh1LCAyMyBNYXkgMjAxMyAyMzozOTowMSBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MCBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
@@ -27,5 +29,5 @@ http_interactions:
       string: !binary |-
         NDA0IHBhZ2Ugbm90IGZvdW5kCg==
     http_version: 
-  recorded_at: Thu, 23 May 2013 23:39:00 GMT
+  recorded_at: Sat, 25 May 2013 16:05:43 GMT
 recorded_with: VCR 2.5.0

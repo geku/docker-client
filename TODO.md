@@ -6,7 +6,7 @@
 * Add thin layer of models (e.g. to create a new container)
 * All connections need to be SSL
 * Authentication is required for API (needs to be added on Docker side)
-
+* Implement `export` of a container
 
 
 

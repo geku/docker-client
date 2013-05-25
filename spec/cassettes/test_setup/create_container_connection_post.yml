@@ -1,21 +1,23 @@
 ---
 http_interactions:
 - request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/123a45fb9f91?v=true
+    method: post
+    uri: http://10.0.5.5:4243/containers/create
     body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
+      encoding: UTF-8
+      string: ! '{"Cmd":["env"],"Image":"base"}'
+    headers:
+      Content-Type:
+      - application/json
   response:
     status:
-      code: 204
+      code: 201
       message: !binary |-
-        Tm8gQ29udGVudA==
+        Q3JlYXRlZA==
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxMiBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MCBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
@@ -24,7 +26,8 @@ http_interactions:
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
     body:
       encoding: ASCII-8BIT
-      string: !binary ""
+      string: !binary |-
+        eyJJZCI6ImI4NDM5ZjMwMjUxMiIsIldhcm5pbmdzIjpudWxsfQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:15 GMT
+  recorded_at: Sat, 25 May 2013 16:05:43 GMT
 recorded_with: VCR 2.5.0

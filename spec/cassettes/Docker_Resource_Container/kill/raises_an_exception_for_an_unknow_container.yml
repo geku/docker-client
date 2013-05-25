@@ -1,33 +1,31 @@
 ---
 http_interactions:
 - request:
-    method: get
-    uri: http://10.0.5.5:4243/containers/8fab97b08092/changes
+    method: post
+    uri: http://10.0.5.5:4243/containers/invalid_id/kill
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 200
+      code: 404
       message: !binary |-
-        T0s=
+        Tm90IEZvdW5k
     headers:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
-        YXBwbGljYXRpb24vanNvbg==
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMyBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siUGF0aCI6Ii9kZXYiLCJLaW5kIjowfSx7IlBhdGgiOiIvZGV2L2ttc2ci
-        LCJLaW5kIjoxfSx7IlBhdGgiOiIvdG1wIiwiS2luZCI6MH0seyJQYXRoIjoi
-        L3RtcC9jaGFuZ2VzIiwiS2luZCI6MX1d
+        Tm8gc3VjaCBjb250YWluZXI6IGludmFsaWRfaWQK
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:35 GMT
+  recorded_at: Sat, 25 May 2013 16:05:34 GMT
 recorded_with: VCR 2.5.0

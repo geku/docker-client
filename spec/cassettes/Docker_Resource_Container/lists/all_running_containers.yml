@@ -18,18 +18,29 @@ http_interactions:
         YXBwbGljYXRpb24vanNvbg==
       !binary "RGF0ZQ==":
       - !binary |-
-        RnJpLCAyNCBNYXkgMjAxMyAxMToyMDo1OSBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxMyBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siSWQiOiI0YzA5MDk0ZDQ2MGE0M2NkMWZhNjhlNzc5NjkzZWM4ZWQwYjM5
-        YWM2ZjIwMjdkNmI3MWNhNDQ4ZDYxZmYzODhhIiwiSW1hZ2UiOiJiYXNlOmxh
+        W3siSWQiOiIxMjQzM2RjZDViN2EyNGZmMTdhMmFmN2U2NDdmYjM2M2ZmZmRk
+        MzYzMDhkYTQ4NWUyY2Y2NDNkYjdlOTc2MTExIiwiSW1hZ2UiOiJiYXNlOmxh
         dGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7IGRvIGVj
         aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzY5
-        MzkxNzQ5LCJTdGF0dXMiOiJVcCA0NSBtaW51dGVzIiwiUG9ydHMiOiIifV0=
+        NDk3OTEyLCJTdGF0dXMiOiJVcCBMZXNzIHRoYW4gYSBzZWNvbmQiLCJQb3J0
+        cyI6IiJ9LHsiSWQiOiIwMTkzMzZlMTdkZDNjYjI3MWE5ZjA4ZDg2OTMxMWM5
+        MzAwMTdiOWE1ZjBiNDBlZjFkYTE1ZjU2YTFlMGE5YzRlIiwiSW1hZ2UiOiJi
+        YXNlOmxhdGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7
+        IGRvIGVjaG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVk
+        IjoxMzY5NDk3MjA1LCJTdGF0dXMiOiJVcCAxMSBtaW51dGVzIiwiUG9ydHMi
+        OiIifSx7IklkIjoiNjhjZmU1YjJjZTYwMGQ4MGFkY2I0ZmU2NmFkOWMwYzhh
+        YzEyYjhkOWNhNjhjOWFjZmEyNmU3OGM2ZGZjMzgzNSIsIkltYWdlIjoiYmFz
+        ZTpsYXRlc3QiLCJDb21tYW5kIjoiL2Jpbi9zaCAtYyB3aGlsZSB0cnVlOyBk
+        byBlY2hvIGhlbGxvIHdvcmxkOyBzbGVlcCAxOyBkb25lIiwiQ3JlYXRlZCI6
+        MTM2OTQ5NjY4MywiU3RhdHVzIjoiVXAgMjAgbWludXRlcyIsIlBvcnRzIjoi
+        In1d
     http_version: 
-  recorded_at: Fri, 24 May 2013 11:21:00 GMT
+  recorded_at: Sat, 25 May 2013 16:05:15 GMT
 recorded_with: VCR 2.5.0

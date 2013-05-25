@@ -1,8 +1,8 @@
 ---
 http_interactions:
 - request:
-    method: get
-    uri: http://10.0.5.5:4243/containers/8fab97b08092/changes
+    method: post
+    uri: http://10.0.5.5:4243/containers/499c5c8ac48a/wait
     body:
       encoding: US-ASCII
       string: ''
@@ -18,16 +18,14 @@ http_interactions:
         YXBwbGljYXRpb24vanNvbg==
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMyBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyNCBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siUGF0aCI6Ii9kZXYiLCJLaW5kIjowfSx7IlBhdGgiOiIvZGV2L2ttc2ci
-        LCJLaW5kIjoxfSx7IlBhdGgiOiIvdG1wIiwiS2luZCI6MH0seyJQYXRoIjoi
-        L3RtcC9jaGFuZ2VzIiwiS2luZCI6MX1d
+        eyJTdGF0dXNDb2RlIjowfQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:35 GMT
+  recorded_at: Sat, 25 May 2013 16:05:26 GMT
 recorded_with: VCR 2.5.0

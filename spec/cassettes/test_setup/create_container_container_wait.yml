@@ -5,8 +5,7 @@ http_interactions:
     uri: http://10.0.5.5:4243/containers/create
     body:
       encoding: UTF-8
-      string: ! '{"Cmd":["/bin/sh","-c","while true; do echo hello world; sleep 1;
-        done"],"Image":"base"}'
+      string: ! '{"Cmd":["sleep","3"],"Image":"base"}'
     headers:
       Content-Type:
       - application/json
@@ -18,7 +17,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
+        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyMCBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
@@ -28,7 +27,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6ImE4ZWIzNTUyZjIwMyIsIldhcm5pbmdzIjpudWxsfQ==
+        eyJJZCI6IjQ5OWM1YzhhYzQ4YSIsIldhcm5pbmdzIjpudWxsfQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
+  recorded_at: Sat, 25 May 2013 16:05:22 GMT
 recorded_with: VCR 2.5.0

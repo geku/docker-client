@@ -5,8 +5,8 @@ http_interactions:
     uri: http://10.0.5.5:4243/containers/create
     body:
       encoding: UTF-8
-      string: ! '{"Hostname":"test-container","User":"test","Memory":33554432,"MemorySwap":67108864,"CpuShares":1,"AttachStdin":false,"AttachStdout":true,"AttachStderr":true,"PortSpecs":["80","443"],"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PORT=5000","ENVIRONTMENT=production"],"Dns":null,"Volumes":{"/var/lib/app":{}},"VolumesFrom":"","Cmd":["echo","hello
-        world"],"Image":"base"}'
+      string: ! '{"Cmd":["/bin/sh","-c","while true; do echo hello world; sleep 1;
+        done"],"Image":"base"}'
     headers:
       Content-Type:
       - application/json
@@ -28,9 +28,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjRhZGFlNDFmNGRkYiIsIldhcm5pbmdzIjpbIllvdXIga2VybmVs
-        IGRvZXMgbm90IHN1cHBvcnQgbWVtb3J5IHN3YXAgY2FwYWJpbGl0aWVzLiBM
-        aW1pdGF0aW9uIGRpc2NhcmRlZC4iXX0=
+        eyJJZCI6IjlmNzliNDAxY2Y1NyIsIldhcm5pbmdzIjpudWxsfQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
+  recorded_at: Sat, 25 May 2013 16:05:34 GMT
 recorded_with: VCR 2.5.0

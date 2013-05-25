@@ -1,8 +1,5 @@
 require 'spec_helper'
 
-# TODO use always constant to be able to switch for rerecording VCR casettes
-DEMO_CONTAINER_ID = '4c09094d460a'
-
 describe Docker::Connection, :vcr do
   subject { Docker::Connection.new(base_url: 'http://10.0.5.5:4243') }
   
@@ -42,9 +39,12 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns a valid response for post request" do
-    response = subject.post('/containers/06c0af9e8696/stop', '', {})
+    id = create_container('connection_post')
+    response = subject.post("/containers/#{id}/start", {}, '', {})
     response.status.should == 204
     response.body.should be_empty
+    # clean up
+    delete_containers(id)
   end
   
   it "raises an error for stream without block" do
@@ -54,10 +54,12 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns a stream", :live do
+    id = create_and_start_container(command: hello_world_command)
     received_data = []
     params = {stream: 1, stdout: 1}
     timeout = 2
-    response = subject.stream("/containers/#{DEMO_CONTAINER_ID}/attach", params, timeout, {}) do |data|
+    
+    response = subject.stream("/containers/#{id}/attach", params, timeout, {}) do |data|
       received_data << data
     end
     
@@ -68,6 +70,8 @@ describe Docker::Connection, :vcr do
     
     received_data.first.should == "hello world\n"
     received_data.size.should >= 1
+    
+    delete_containers(id)
   end
   
   

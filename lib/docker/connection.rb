@@ -24,8 +24,8 @@ class Docker::Connection
     resp
   end
   
-  def post(path, body, headers = {})
-    resp = perform_request(:POST, path, {}, body, headers)
+  def post(path, params = {}, body = '', headers = {})
+    resp = perform_request(:POST, path, params, body, headers)
     raise(Docker::Error::InternalServerError, resp.body) if resp.status == 500
     resp
   end

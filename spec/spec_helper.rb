@@ -12,6 +12,10 @@ VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'
   config.hook_into :webmock
   config.configure_rspec_metadata!
+  # :none   replays all requests
+  # :once   record if no casette available, otherwise replay or error
+  # :all    re-record all request
+  # config.default_cassette_options = {:record => :all}
 end
 
 
