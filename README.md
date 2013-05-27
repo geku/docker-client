@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+**WARNING:** only works with *Docker master* and not the released version 0.3.3. Upcoming Docker version 0.4.0 should contain the Docker remote API.
+
 So far only the containers resource is supported. The images resource and endpoints in category Mics according to the Docker [Remote API documentation](http://docs.docker.io/en/latest/api/docker_remote_api.html) are not yet implemented.
 
 
