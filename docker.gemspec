@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'docker/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'docker'
+  spec.name          = 'docker-client'
   spec.version       = Docker::VERSION
   spec.authors       = ['Georg Kunz']
   spec.email         = ['kwd@gmx.ch']

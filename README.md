@@ -6,7 +6,7 @@ Docker client library to access the Docker remote API.
 
 Add this line to your application's Gemfile:
 
-    gem 'docker'
+    gem 'docker-client'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install docker
+    $ gem install docker-client
 
 ## Usage
 
