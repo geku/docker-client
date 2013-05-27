@@ -29,8 +29,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'guard-rspec'
   spec.add_development_dependency 'awesome_print'
   
-  spec.add_runtime_dependency 'multi_json'
-  spec.add_runtime_dependency 'json'
-  spec.add_runtime_dependency 'curb'
+  spec.add_runtime_dependency 'multi_json', '~> 1.7'
+  spec.add_runtime_dependency 'json', '~> 1.8'
+  spec.add_runtime_dependency 'curb', '~> 0.8.4'
   
 end
