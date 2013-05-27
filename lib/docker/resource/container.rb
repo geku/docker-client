@@ -37,6 +37,16 @@ class Docker::Resource::Container < Docker::Resource::Base
     @connection.get("/containers/#{container_id}/changes").body_as_json
   end
   
+  # TODO default run configuration not supported yet
+  def commit(container_id, repository, tag = nil, options = {})
+    options[:container] = container_id
+    options[:repo] = repository
+    options[:tag]  = tag if tag
+    response = @connection.post("/commit", options)
+    raise_if_container_not_found(response.status)
+    response.body_as_json
+  end
+  
   # Returns a stream
   def export
     

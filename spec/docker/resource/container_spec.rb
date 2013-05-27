@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Resource::Container do
-  subject { Docker::API.new(base_url: 'http://10.0.5.5:4243').containers }
+  subject(:containers) { Docker::API.new(base_url: 'http://10.0.5.5:4243').containers }
   
   describe "lists", :vcr do
     before(:all) {
@@ -113,6 +113,27 @@ describe Docker::Resource::Container do
       changes = subject.changes(@c)
       changes.should be_kind_of(Array)
       changes.any? {|c| c['path'] == '/tmp/changes'}
+    end
+  end
+  
+  describe "commit", :vcr do
+    before(:all) {
+      @c = create_and_start_container('container_commit', command: ['touch', '/tmp/changes'], wait: true)
+    }
+    after(:all) { delete_containers(@c) }
+    
+    it "creates a new image from the container's changes" do
+      options = {m: 'Commit message', author: 'Docker Client' }
+      response = subject.commit(@c, 'test-repo', 'test-tag', options)
+      response.should have_key('Id')
+      image_id = response['Id']
+      delete_images(image_id)
+    end
+    
+    it "raises an exception for an unknown container" do
+      expect {
+        subject.commit('invalid_id', 'test-repo')
+      }.to raise_error(Docker::Error::ContainerNotFound)
     end
   end
   

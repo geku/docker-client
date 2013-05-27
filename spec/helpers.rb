@@ -27,8 +27,14 @@ module Helpers
     end
   end
   
+  def commit_container(id, repo)
+    VCR.use_cassette('test_setup/commit_container') do
+      container_resource.commit(id, repo)['Id']
+    end
+  end
+  
   def create_and_start_container(name, options = {})
-    wait = options.delete(:wait)
+    wait   = options.delete(:wait)
     
     id = create_container(name, options)
     start_container(id)
@@ -41,8 +47,31 @@ module Helpers
     ['/bin/sh', '-c', 'while true; do echo hello world; sleep 1; done']
   end
   
+  def create_image(name)
+    container_id = create_and_start_container(name, command: ['touch', '/tmp/changes'], wait: true, commit: true)
+    image_id = commit_container(container_id, name)
+    delete_containers(container_id)
+    image_id
+  end
+  
+  def delete_images(*ids)
+    VCR.use_cassette('test_setup/delete_image') do
+      ids.each do |id|
+        image_resource.remove(id) if id
+      end
+    end
+  end
+  
+  def image_resource
+    @_image ||= docker_resource.images
+  end
+  
   def container_resource
-    @container ||= Docker::API.new(base_url: 'http://10.0.5.5:4243').containers
+    @_container ||= docker_resource.containers
+  end
+  
+  def docker_resource
+    @_docker ||= Docker::API.new(base_url: 'http://10.0.5.5:4243')
   end
   
 end

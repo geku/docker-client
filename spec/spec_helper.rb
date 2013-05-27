@@ -15,7 +15,7 @@ VCR.configure do |config|
   # :none   replays all requests
   # :once   record if no casette available, otherwise replay or error
   # :all    re-record all request
-  # config.default_cassette_options = {:record => :all}
+  config.default_cassette_options = {:record => :all}
 end
 
 
