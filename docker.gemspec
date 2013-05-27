@@ -25,16 +25,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'vcr', '~> 2.5'
   spec.add_development_dependency 'webmock', '~> 1.11'
   spec.add_development_dependency 'activesupport', '~> 3.2.13'
+  spec.add_development_dependency 'guard'
+  spec.add_development_dependency 'guard-rspec'
+  spec.add_development_dependency 'awesome_print'
   
   spec.add_runtime_dependency 'multi_json'
   spec.add_runtime_dependency 'json'
   spec.add_runtime_dependency 'curb'
-  spec.add_runtime_dependency 'guard'
-  spec.add_runtime_dependency 'guard-rspec'
-  spec.add_runtime_dependency 'awesome_print'
-  
-  # interesting GEMs
-  # https://github.com/intridea/hashie
-  # https://github.com/tcocca/rash
   
 end
