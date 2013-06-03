@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-**WARNING:** only works with *Docker master* and not the released version 0.3.3. Upcoming Docker version 0.4.0 should contain the Docker remote API.
+**Ready to be used with Docker version [0.4.0](http://get.docker.io/builds/Linux/x86_64/docker-latest.tgz).**
 
-So far only the containers resource is supported. The images resource and endpoints in category Mics according to the Docker [Remote API documentation](http://docs.docker.io/en/latest/api/docker_remote_api.html) are not yet implemented.
+So far only the [containers](http://docs.docker.io/en/latest/api/docker_remote_api.html#containers) resource is supported. The images resource and endpoints in category misc according to the Docker [Remote API documentation](http://docs.docker.io/en/latest/api/docker_remote_api.html) are not yet implemented (wip: see [pull request](https://github.com/geku/docker-client/pull/1))
 
 
 ````ruby
