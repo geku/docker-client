@@ -1,0 +1,171 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=59397c6fcc7f&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTowMDowOSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjAyY2QxN2YwYTc4NCJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:00:09 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=cd0ad6d65741&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTowNDoyMCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImQwZjY4NDg4ZjY2MSJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:04:20 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=7913afb1999e&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToxMDowNSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjM1ZTVjOGYzZWVjNyJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:10:05 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=ec3ca1865f3a&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyMTozOCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImEzNDUxZTM2OGM5NiJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:21:38 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=7f0f7e0baedc&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyNTozMiBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjM4NGNjNzFmNzVmNSJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:25:32 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&container=efc1661a7b42&m=Commit%20message&repo=test-repo&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyNjo1MSBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjJhNzJmZDg5MGMwMyJ9
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:26:51 GMT
+recorded_with: VCR 2.5.0

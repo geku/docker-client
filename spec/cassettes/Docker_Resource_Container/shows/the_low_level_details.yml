@@ -45,4 +45,274 @@ http_interactions:
         L3Jlc29sdi5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
     http_version: 
   recorded_at: Sat, 25 May 2013 16:05:19 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/b75022df8bc4/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTowMDowNyBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImI3NTAyMmRmOGJjNDYxZjM1Mjk2OWQ3MjlhMjk1ZGRkMTFiMmVk
+        MGRiZjZkNjBjZDNiYTEwZTRkNzBjZGY4MjQiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMTowMDowNy41NjM0MTRaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiJiNzUwMjJkZjhiYzQiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:00:07 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/a56bd5f28853/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTowNDozMyBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImE1NmJkNWYyODg1M2E5NjZiNzgxMGM5YjM4ZGU5NWY0MDhhMmE0
+        YTY2NDlhM2Q2OTAwZTE3ZjQzYzUxY2Q2YjQiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMTowNDozMy4xNjc0OTFaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiJhNTZiZDVmMjg4NTMiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:04:33 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/9fe650a0a282/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTowOTo1NCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjlmZTY1MGEwYTI4MmI3MDJkMjE3ZTIzN2VlNDJkZmRmZDEyY2Zh
+        MzZjYmU5MGIwN2JkZDBkNDNiOThiZDE1YWYiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMTowOTo1My45OTc4N1oiLCJQYXRoIjoiZW52IiwiQXJncyI6W10s
+        IkNvbmZpZyI6eyJIb3N0bmFtZSI6IjlmZTY1MGEwYTI4MiIsIlVzZXIiOiIi
+        LCJNZW1vcnkiOjAsIk1lbW9yeVN3YXAiOjAsIkNwdVNoYXJlcyI6MCwiQXR0
+        YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hT
+        dGRlcnIiOmZhbHNlLCJQb3J0U3BlY3MiOm51bGwsIlR0eSI6ZmFsc2UsIk9w
+        ZW5TdGRpbiI6ZmFsc2UsIlN0ZGluT25jZSI6ZmFsc2UsIkVudiI6bnVsbCwi
+        Q21kIjpbImVudiJdLCJEbnMiOm51bGwsIkltYWdlIjoiYmFzZSIsIlZvbHVt
+        ZXMiOm51bGwsIlZvbHVtZXNGcm9tIjoiIn0sIlN0YXRlIjp7IlJ1bm5pbmci
+        OmZhbHNlLCJQaWQiOjAsIkV4aXRDb2RlIjowLCJTdGFydGVkQXQiOiIwMDAx
+        LTAxLTAxVDAwOjAwOjAwWiIsIkdob3N0IjpmYWxzZX0sIkltYWdlIjoiYjc1
+        MGZlNzkyNjlkMmVjOWEzYzU5M2VmMDViNDMzMmIxZDFhMDJhNjJiNGFjY2Iy
+        YzIxZDU4OWZmMmY1ZjJkYyIsIk5ldHdvcmtTZXR0aW5ncyI6eyJJcEFkZHJl
+        c3MiOiIiLCJJcFByZWZpeExlbiI6MCwiR2F0ZXdheSI6IiIsIkJyaWRnZSI6
+        IiIsIlBvcnRNYXBwaW5nIjpudWxsfSwiU3lzSW5pdFBhdGgiOiIvdXNyL2xv
+        Y2FsL2Jpbi9kb2NrZXIiLCJSZXNvbHZDb25mUGF0aCI6Ii9ldGMvcmVzb2x2
+        LmNvbmYiLCJWb2x1bWVzIjpudWxsfQ==
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:09:53 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/e8c48450712f/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyMToyMCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImU4YzQ4NDUwNzEyZjdkNWZiMjNiY2ZjMDEwYmE4Y2Q0MzBmNGZm
+        Mjg3ZDI3YzBiMDNiYmZiM2YzMjBhOWEyZjIiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMToyMToyMC4zNjgwNjRaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiJlOGM0ODQ1MDcxMmYiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:21:20 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/ff8b3ac4aafb/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyNToyNCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImZmOGIzYWM0YWFmYjA5MWI1NDI1YjM3ZmEzMDU1MGMwYmQyZGYy
+        NzJkZTVmYzMyNGIwZTNhMTY2NmU1OGRiYTMiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMToyNToyNC4wNjI2NjJaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiJmZjhiM2FjNGFhZmIiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:25:24 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/1ba4d9d9fa69/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMToyNjo1MiBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjFiYTRkOWQ5ZmE2OTUwMGNiY2IxOWFjMzRkMWJjMWVhOGQ1MjFl
+        ZjM2ZTY1YzgxYWZiNDBiOTIwMDM3ZDgyNDEiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMToyNjo1Mi4xODEyNjlaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiIxYmE0ZDlkOWZhNjkiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:26:52 GMT
 recorded_with: VCR 2.5.0

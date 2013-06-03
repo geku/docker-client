@@ -54,7 +54,7 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns a stream", :live do
-    id = create_and_start_container(command: hello_world_command)
+    id = create_and_start_container('test-returns-a-stream', command: hello_world_command)
     received_data = []
     params = {stream: 1, stdout: 1}
     timeout = 2

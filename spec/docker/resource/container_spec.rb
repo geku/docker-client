@@ -49,8 +49,6 @@ describe Docker::Resource::Container do
       status = subject.create(hello_world_command, 'base')
       status.should be_kind_of(Hash)
       status.should have_key('Id')
-      status.should have_key('Warnings')
-      status['Warnings'].should be_nil
       @container_id = status['Id']
     end
     
@@ -235,9 +233,7 @@ describe Docker::Resource::Container do
       received_data.size.should >= 2
     end
     
-    # TODO fails because docker always returns status 200
-    # See https://github.com/dotcloud/docker/issues/718
-    xit "raises an exception for an unknown container" do
+    it "raises an exception for an unknown container" do
       expect {
         subject.attach('invalid_id') {  }
       }.to raise_error(Docker::Error::ContainerNotFound)
@@ -260,9 +256,7 @@ describe Docker::Resource::Container do
       output.should include("stderr")
     end
     
-    # TODO fails because docker always returns status 200
-    # See https://github.com/dotcloud/docker/issues/718
-    xit "raises an exception for an unknown container" do
+    it "raises an exception for an unknown container" do
       expect {
         subject.logs('invalid_id')
       }.to raise_error(Docker::Error::ContainerNotFound)
