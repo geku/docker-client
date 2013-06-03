@@ -17,7 +17,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNjo1NCBHTVQ=
+        TW9uLCAwMyBKdW4gMjAxMyAyMTozNzozMCBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
@@ -27,7 +27,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjliMDY3Y2Y4NmM5ZiJ9
+        eyJJZCI6IjViMjAxNmQwMjY5OSJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:26:53 GMT
+  recorded_at: Mon, 03 Jun 2013 21:37:30 GMT
 recorded_with: VCR 2.5.0

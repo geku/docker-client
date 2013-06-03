@@ -18,17 +18,17 @@ http_interactions:
         YXBwbGljYXRpb24vanNvbg==
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNzowMyBHTVQ=
+        TW9uLCAwMyBKdW4gMjAxMyAyMTozNzoxNiBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siSWQiOiI1Zjc4ODMxYmIzMmU3N2VhMTYzODlkMzRhYTc5ZjMwZGIxNjc4
-        M2RhMjRlM2QyOTM4ZDI2OGJjZGJlNWQyYjM4IiwiSW1hZ2UiOiJiYXNlOmxh
-        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3MDI5NDgyMywi
+        W3siSWQiOiIyODY3MGNmZWE0ZWMzMGE1OWYwZGE4OTgwNDQ2OWYxZWM2MzU3
+        MGNhMzg3YWJhMGRlZDY3ZThjZjE3MzkwNjAwIiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3MDI5NTQzNiwi
         U3RhdHVzIjoiRXhpdCAwIiwiUG9ydHMiOiIifV0=
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:27:03 GMT
+  recorded_at: Mon, 03 Jun 2013 21:37:16 GMT
 recorded_with: VCR 2.5.0

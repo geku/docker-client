@@ -315,4 +315,49 @@ http_interactions:
         di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
     http_version: 
   recorded_at: Mon, 03 Jun 2013 21:26:52 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/containers/b4e6b8d66800/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBKdW4gMjAxMyAyMTozNzo0MCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImI0ZTZiOGQ2NjgwMGJiYzMxMWY2MWM5MTRlNDM2YWU3YmI3OGYx
+        OTYwMGZiMzk3MmFmYThiMGJkZDBhMjRmNWUiLCJDcmVhdGVkIjoiMjAxMy0w
+        Ni0wM1QyMTozNzo0MC45MzU3MDFaIiwiUGF0aCI6ImVudiIsIkFyZ3MiOltd
+        LCJDb25maWciOnsiSG9zdG5hbWUiOiJiNGU2YjhkNjY4MDAiLCJVc2VyIjoi
+        IiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJDcHVTaGFyZXMiOjAsIkF0
+        dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNo
+        U3RkZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOmZhbHNlLCJP
+        cGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOm51bGws
+        IkNtZCI6WyJlbnYiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImJhc2UiLCJWb2x1
+        bWVzIjpudWxsLCJWb2x1bWVzRnJvbSI6IiJ9LCJTdGF0ZSI6eyJSdW5uaW5n
+        IjpmYWxzZSwiUGlkIjowLCJFeGl0Q29kZSI6MCwiU3RhcnRlZEF0IjoiMDAw
+        MS0wMS0wMVQwMDowMDowMFoiLCJHaG9zdCI6ZmFsc2V9LCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJOZXR3b3JrU2V0dGluZ3MiOnsiSXBBZGRy
+        ZXNzIjoiIiwiSXBQcmVmaXhMZW4iOjAsIkdhdGV3YXkiOiIiLCJCcmlkZ2Ui
+        OiIiLCJQb3J0TWFwcGluZyI6bnVsbH0sIlN5c0luaXRQYXRoIjoiL3Vzci9s
+        b2NhbC9iaW4vZG9ja2VyIiwiUmVzb2x2Q29uZlBhdGgiOiIvZXRjL3Jlc29s
+        di5jb25mIiwiVm9sdW1lcyI6bnVsbH0=
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:37:40 GMT
 recorded_with: VCR 2.5.0

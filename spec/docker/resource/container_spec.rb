@@ -264,10 +264,10 @@ describe Docker::Resource::Container do
   end
   
   describe "wait", :vcr do
-    before { 
+    before(:all) { 
       @c = create_and_start_container('container_wait', command: ['sleep', '3'])
     }
-    after { delete_containers(@c) }
+    after(:all) { delete_containers(@c) }
     
     it "blocks until the container stops" do
       status = subject.wait(@c)

@@ -154,4 +154,26 @@ http_interactions:
         c3Rkb3V0Cg==
     http_version: 
   recorded_at: Mon, 03 Jun 2013 21:26:53 GMT
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/containers/7fe249af9595/attach?logs=true&stdout=true&stream=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        c3Rkb3V0Cg==
+    http_version: 
+  recorded_at: Mon, 03 Jun 2013 21:37:45 GMT
 recorded_with: VCR 2.5.0
