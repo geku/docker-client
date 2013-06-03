@@ -1,0 +1,32 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/auth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NTg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAyOSBNYXkgMjAxMyAxOToxNzo1NyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ1c2VybmFtZSI6Imdla3UiLCJwYXNzd29yZCI6IiIsImVtYWlsIjoic3Bh
+        bUBiZXN1cmUuY2gifQ==
+    http_version: 
+  recorded_at: Wed, 29 May 2013 19:17:57 GMT
+recorded_with: VCR 2.5.0

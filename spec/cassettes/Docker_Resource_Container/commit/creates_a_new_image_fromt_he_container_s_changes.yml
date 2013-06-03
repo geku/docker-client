@@ -1,0 +1,31 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.5.5:4243/commit?author=Docker%20Client&m=Commit%20message&repo=test-repo&run=%7B%22Cmd%22:%20%5B%22cat%22,%20%22/var/changes%22%5D,%20%22PortSpecs%22:%20%5B%2222%22%5D%7D&tag=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAyNyBNYXkgMjAxMyAxODoyMjo0MCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBjb250YWluZXI6IAo=
+    http_version: 
+  recorded_at: Mon, 27 May 2013 18:22:40 GMT
+recorded_with: VCR 2.5.0

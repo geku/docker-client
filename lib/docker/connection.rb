@@ -40,6 +40,7 @@ class Docker::Connection
     raise(ArgumentError, 'Block required to handle streaming response') if block.nil?
     begin
       timeout_raised = false
+      @curl.reset
       set_url(path, params)
       set_headers(headers)
       @curl.timeout = timeout if timeout
@@ -55,6 +56,7 @@ class Docker::Connection
   private
     
     def perform_request(verb, path, query_params, body, headers)
+      @curl.reset
       set_url(path, query_params)
       set_headers(headers)
       set_body(body)

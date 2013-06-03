@@ -62,12 +62,22 @@ module Helpers
     end
   end
   
+  def auth
+    VCR.use_cassette('test_setup/auth') do
+      system_ressource.auth(ENV['DOCKER_USERNAME'], ENV['DOCKER_EMAIL'], ENV['DOCKER_PASSWORD'])
+    end
+  end
+  
   def image_resource
     @_image ||= docker_resource.images
   end
   
   def container_resource
     @_container ||= docker_resource.containers
+  end
+  
+  def system_ressource
+    @_system ||= docker_resource.system
   end
   
   def docker_resource

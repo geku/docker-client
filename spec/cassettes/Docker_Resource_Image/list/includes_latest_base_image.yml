@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/images/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAyNyBNYXkgMjAxMyAxNToxMzo0OCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siUmVwb3NpdG9yeSI6InRlc3QiLCJUYWciOiJsYXRlc3QiLCJJZCI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJDcmVhdGVkIjoxMzY0MTAyNjU4fSx7IlJl
+        cG9zaXRvcnkiOiJvY3RvL2J1aWxkcGFjayIsIlRhZyI6ImxhdGVzdCIsIklk
+        IjoiYmNmZDYyMmI3YzZmYTc4ZDNjZjk2YjY1YjRmOGE2ZTk2NTFiYjc0MjY3
+        Zjk4MGU4NmJhODAyNTlkNzg1MzUzNCIsIkNyZWF0ZWQiOjEzNjg1NDI4NDl9
+        LHsiUmVwb3NpdG9yeSI6ImhhbGxvIiwiVGFnIjoibGF0ZXN0IiwiSWQiOiJi
+        NzUwZmU3OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNj
+        YjJjMjFkNTg5ZmYyZjVmMmRjIiwiQ3JlYXRlZCI6MTM2NDEwMjY1OH0seyJS
+        ZXBvc2l0b3J5IjoiYmFzZSIsIlRhZyI6InVidW50dS1xdWFudGwiLCJJZCI6
+        ImI3NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRh
+        Y2NiMmMyMWQ1ODlmZjJmNWYyZGMiLCJDcmVhdGVkIjoxMzY0MTAyNjU4fSx7
+        IlJlcG9zaXRvcnkiOiJiYXNlIiwiVGFnIjoidWJ1bnR1LTEyLjEwIiwiSWQi
+        OiJiNzUwZmU3OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0
+        YWNjYjJjMjFkNTg5ZmYyZjVmMmRjIiwiQ3JlYXRlZCI6MTM2NDEwMjY1OH0s
+        eyJSZXBvc2l0b3J5IjoiYmFzZSIsIlRhZyI6InVidW50dS1xdWFudGFsIiwi
+        SWQiOiJiNzUwZmU3OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2
+        MmI0YWNjYjJjMjFkNTg5ZmYyZjVmMmRjIiwiQ3JlYXRlZCI6MTM2NDEwMjY1
+        OH0seyJSZXBvc2l0b3J5IjoiYmFzZSIsIlRhZyI6ImxhdGVzdCIsIklkIjoi
+        Yjc1MGZlNzkyNjlkMmVjOWEzYzU5M2VmMDViNDMzMmIxZDFhMDJhNjJiNGFj
+        Y2IyYzIxZDU4OWZmMmY1ZjJkYyIsIkNyZWF0ZWQiOjEzNjQxMDI2NTh9LHsi
+        UmVwb3NpdG9yeSI6Im9jdG8vbmF0cyIsIlRhZyI6ImxhdGVzdCIsIklkIjoi
+        NWVlNDcxZWQ1MGM0Yzg2OGU2NWE4MDUzYWY5ODUwMDBjNjI0ZDU0YzA0ODY1
+        NTcxNWJhYThlYWYzM2VhNzgxYiIsIkNyZWF0ZWQiOjEzNjg0OTY1Mzl9LHsi
+        SWQiOiJjZTE2YWNmZGJhODk0MDY2MWJmNWZiODNkNWE4ZDQ5NjhmY2JhNTU5
+        NzhmYTFlZDQ0OWE3MzkxY2E1MTU2Nzc5IiwiQ3JlYXRlZCI6MTM2ODUzMjk4
+        OH1d
+    http_version: 
+  recorded_at: Mon, 27 May 2013 15:13:48 GMT
+- request:
+    method: get
+    uri: http://10.0.5.5:4243/images/json?all=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo0NyBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siUmVwb3NpdG9yeSI6ImJhc2UiLCJUYWciOiJsYXRlc3QiLCJJZCI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJDcmVhdGVkIjoxMzY0MTAyNjU4fSx7IlJl
+        cG9zaXRvcnkiOiJiYXNlIiwiVGFnIjoidWJ1bnR1LXF1YW50bCIsIklkIjoi
+        Yjc1MGZlNzkyNjlkMmVjOWEzYzU5M2VmMDViNDMzMmIxZDFhMDJhNjJiNGFj
+        Y2IyYzIxZDU4OWZmMmY1ZjJkYyIsIkNyZWF0ZWQiOjEzNjQxMDI2NTh9LHsi
+        UmVwb3NpdG9yeSI6ImJhc2UiLCJUYWciOiJ1YnVudHUtMTIuMTAiLCJJZCI6
+        ImI3NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRh
+        Y2NiMmMyMWQ1ODlmZjJmNWYyZGMiLCJDcmVhdGVkIjoxMzY0MTAyNjU4fSx7
+        IlJlcG9zaXRvcnkiOiJiYXNlIiwiVGFnIjoidWJ1bnR1LXF1YW50YWwiLCJJ
+        ZCI6ImI3NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYy
+        YjRhY2NiMmMyMWQ1ODlmZjJmNWYyZGMiLCJDcmVhdGVkIjoxMzY0MTAyNjU4
+        fSx7IlJlcG9zaXRvcnkiOiJwdXNoX2ltYWdlX3Rlc3QiLCJUYWciOiJsYXRl
+        c3QiLCJJZCI6IjI0YjRhNWJhODFjZmNmYWEzNTI3NmZlNzRhNmQ4MGY1Mjk3
+        MjNiNTI1OTc0YTRhYTQyNWI1NWYzZWFjYTJmN2IiLCJDcmVhdGVkIjoxMzY5
+        ODUwMTA5fSx7IklkIjoiMjdjZjc4NDE0NzA5OTU0NSIsIkNyZWF0ZWQiOjEz
+        NjQwNjgzOTF9LHsiSWQiOiJlOTkzNTIwYjI4NWY4MzlhYjcxN2VjYmZjNzA4
+        MzczNWZiZjU0MGMyNThhZjU4NDkwNzJjMjBjZTM3OGQyNWJkIiwiQ3JlYXRl
+        ZCI6MTM2OTg1MDEwMX1d
+    http_version: 
+  recorded_at: Wed, 29 May 2013 18:20:47 GMT
+recorded_with: VCR 2.5.0

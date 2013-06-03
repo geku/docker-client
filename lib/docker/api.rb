@@ -25,7 +25,7 @@ class Docker::API
   end
   
   def system
-    
+    Docker::Resource::System.new(@connection)
   end
   
   

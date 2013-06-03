@@ -50,7 +50,20 @@ describe Docker::Resource::Image do
     end
   end
   
-  describe "push" do
+  describe "insert_file", :vcr do
+    after {
+      details = image.show(@new_image_id)
+      delete_containers(details['container'])
+      delete_images(@new_image_id)
+    }
+    
+    it "creates a new image with the file" do
+      result = image.insert_file('base', '/tmp/new_file', 'https://raw.github.com/geku/docker-client/master/README.md')
+      result.should be_kind_of(Hash)
+      result.should have_key('Id')
+      @new_image_id = result['Id']
+      @new_image_id.should_not be_nil
+    end
   end
   
   describe "tag", :vcr do
@@ -83,6 +96,42 @@ describe Docker::Resource::Image do
         subject.remove('unknown-image')
       }.to raise_error(Docker::Error::ImageNotFound)
     end
+  end
+  
+  describe "push", :vcr do
+    before {
+      @image = create_image('push_image_test')
+    }
+    
+    it "pushs the given image to the default registry" do
+      status = subject.push(@image)
+      status.should == 200
+    end
+    
+    xit "returns the streamed progress" do
+      output = []
+      subject.push(@image) do |data|
+        output << data
+      end
+      
+      # TODO
+      output.size.should >= 2
+      output.last.should == ""
+      # ???
+    end
+    
+    xit "raises an exception for an unknown image" do
+      expect {
+        subject.push('invalid_image')
+      }.to raise_error(Docker::Error::ImageNotFound)
+    end
+  end
+  
+  describe "pull" do
+  end
+  
+  describe "import" do
+    # export busybox image to see if we can embed that into the Git repo
   end
   
   # FIXME not working with current Docker master

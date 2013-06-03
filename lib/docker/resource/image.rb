@@ -22,6 +22,17 @@ class Docker::Resource::Image < Docker::Resource::Base
     response.body_as_json
   end
   
+  # Insert file and return ID of new image {'Id' => '<image ID>'}
+  # Leaves behind a container that was used to download the file
+  def insert_file(name, destination, url, timeout = nil)
+    params = {path: destination, url: url}
+    output = []
+    response = @connection.stream("/images/#{name}/insert", params, timeout) do |data|
+      output << data
+    end
+    {'Id' => output.last.strip}
+  end
+  
   
   def tag(name, repository, options = {})
     options = options.merge(repo: repository)
@@ -40,6 +51,32 @@ class Docker::Resource::Image < Docker::Resource::Base
   def search(term)
     params = {term: term}
     @connection.get("/images/search", params).body_as_json
+  end
+  
+  # Import an image from the given file
+  def import
+    
+  end
+  
+  
+  # Pull an image from the given registry
+  def pull(name, repository, tag)
+    # TODO set standard repository if nil
+    
+  end
+  
+  
+  # Params:
+  # :registry   Registry to use
+  def push(name, options = {}, timeout = nil, &block)
+    status = nil
+    if block.nil?
+      status = @connection.post("/images/#{name}/push", options).status
+    else
+      status = @connection.stream("/images/#{name}/push", options, timeout, &block).status
+    end
+    raise_if_image_not_found(status)
+    status
   end
   
   private
