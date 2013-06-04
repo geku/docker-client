@@ -22,4 +22,23 @@ describe Docker::Resource::System do
     end
   end
   
+  describe "info", :vcr do
+    it "returns system information" do
+      info = system.info
+      info.should be_kind_of(Hash)
+      info.should have_key('Containers')
+      info.should have_key('Images')
+      info.should have_key('MemoryLimit')
+      info.should have_key('SwapLimit')
+    end
+  end
+  
+  describe "version", :vcr do
+    it "returns the Docker server version" do
+      version = system.version
+      version.should be_kind_of(Hash)
+      version.should have_key('Version')
+    end
+  end
+  
 end

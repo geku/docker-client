@@ -19,6 +19,14 @@ class Docker::Resource::System < Docker::Resource::Base
     @connection.get('/auth').body_as_json
   end
   
+  def info
+    @connection.get('/info').body_as_json
+  end
+  
+  def version
+    @connection.get('/version').body_as_json
+  end
+  
   
 end
 
