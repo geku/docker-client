@@ -110,7 +110,7 @@ describe Docker::Resource::Container do
     it "inspects the container's filesystem changes" do
       changes = subject.changes(@c)
       changes.should be_kind_of(Array)
-      changes.any? {|c| c['path'] == '/tmp/changes'}
+      changes.any? {|c| c['Path'] == '/tmp/changes'}.should be_true
     end
   end
   
