@@ -20,7 +20,7 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns a valid response for a basic request" do
-    response = subject.send(:perform_request, :GET, '/containers/ps', {}, nil, {})
+    response = subject.send(:perform_request, :GET, '/containers/ps', {}, {}, nil)
     response.should be_kind_of(Docker::Connection::Response)
     response.status.should == 200
     response.content_type.should == "application/json"
@@ -28,7 +28,7 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns status 404 for non existent path" do
-    response = subject.send(:perform_request, :GET, '/invalid_path', {}, nil, {})
+    response = subject.send(:perform_request, :GET, '/invalid_path', {}, {}, nil)
     response.status.should == 404
   end
   
