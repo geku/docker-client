@@ -64,7 +64,7 @@ class Docker::Connection
     end
     
     def curl_for(path, query_params = {}, headers = {}, body = nil)
-      Curl::Easy.new.tap do |curl|
+      Curl::Easy.new do |curl|
         set_url(curl, path, query_params)
         set_headers(curl, headers)
         set_body(curl, body)
