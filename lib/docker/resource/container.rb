@@ -30,7 +30,9 @@ class Docker::Resource::Container < Docker::Resource::Base
   # inspect is a Ruby internal method that should not be overwritten 
   # therefore we use show as it displays the container details
   def show(container_id)
-    @connection.get("/containers/#{container_id}/json").body_as_json
+    response = @connection.get("/containers/#{container_id}/json")
+    raise_if_container_not_found(response.status)
+    response.body_as_json
   end
   
   def changes(container_id)
@@ -138,4 +140,3 @@ end
 
 
 
-  
