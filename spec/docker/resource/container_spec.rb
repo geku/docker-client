@@ -99,6 +99,12 @@ describe Docker::Resource::Container do
       details.should be_kind_of(Hash)
       details['Id'].should include(@c)
     end
+
+    it "raises an exception for an unknown container" do
+      expect {
+        subject.show('invalid_id')
+      }.to raise_error(Docker::Error::ContainerNotFound)
+    end
   end
   
   describe "changes", :vcr do
