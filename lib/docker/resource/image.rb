@@ -60,9 +60,17 @@ class Docker::Resource::Image < Docker::Resource::Base
   
   
   # Pull an image from the given registry
-  def pull(name, repository, tag)
+  def pull(name, repository = nil, tag = nil, timeout = nil, &block)
     # TODO set standard repository if nil
-    
+    params = { fromImage: name }
+    params[:repo] = repository if repository
+    params[:tag]  = tag if tag
+    if block.nil?
+      response = @connection.post("/images/create", params)
+    else
+      response = @connection.stream("/images/create", params, timeout, &block)
+    end
+    response
   end
   
   
