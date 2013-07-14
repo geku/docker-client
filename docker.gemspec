@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 2.13'
   spec.add_development_dependency 'vcr', '~> 2.5'
   spec.add_development_dependency 'webmock', '~> 1.11'
-  spec.add_development_dependency 'activesupport', '~> 3.2.13'
   spec.add_development_dependency 'guard'
   spec.add_development_dependency 'guard-rspec'
   spec.add_development_dependency 'awesome_print'
@@ -32,5 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'multi_json', '~> 1.7'
   spec.add_runtime_dependency 'json', '~> 1.8'
   spec.add_runtime_dependency 'curb', '~> 0.8.4'
+  spec.add_runtime_dependency 'activesupport', '~> 3.2.13'
   
 end
