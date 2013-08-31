@@ -25,11 +25,14 @@ describe Docker::Resource::System do
   describe "info", :vcr do
     it "returns system information" do
       info = system.info
+      
+      ap info
+      
       info.should be_kind_of(Hash)
       info.should have_key('Containers')
       info.should have_key('Images')
       info.should have_key('MemoryLimit')
-      info.should have_key('SwapLimit')
+      info.should have_key('KernelVersion')
     end
   end
   
