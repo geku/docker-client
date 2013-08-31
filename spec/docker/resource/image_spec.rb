@@ -130,6 +130,26 @@ describe Docker::Resource::Image do
   describe "pull" do
   end
   
+  describe "build_from_url", :live, :vcr do
+    it "creates a new image from a Dockerfile" do
+      output = []
+      status = subject.build_from_url('https://gist.github.com/geku/6821e658b8476f87bf63/raw/bb94ee905b7d7164980a0b5cd4e58da2a14d2537/Dockerfile') do |data|
+        output << data
+      end
+      output.last.should =~ /^Successfully built \S{12}$/
+      status.should == 200
+    end
+    
+    xit "creates a new image from a GIT repository" do
+    end
+    
+    it "returns 500 for an invalid URL" do
+      status = subject.build_from_url('http://www.besure.ch/invalid_url') {}
+      status.should == 500
+    end
+    
+  end
+  
   describe "import" do
     # export busybox image to see if we can embed that into the Git repo
   end

@@ -87,6 +87,31 @@ class Docker::Resource::Image < Docker::Resource::Base
     status
   end
   
+    # Build from Dockerfile
+  # Dockerfile as an IO object (either File IO or StringIO)
+  # def build(dockerfile, options = {}, timeout  = nil, &block)
+  #   docker_cmds = dockerfile.read
+    
+  #   # Content-Type: application/json
+  #   @connection.stream("/build", options, timeout, &block).status
+  # end
+  
+  # URL must be either a GIT repository or a URL to a Dockerfile.
+  # 
+  # Valid options
+  # t       repository name and optionally a tag that is applied to the resulting image
+  # q       suppress verbose build output [1|0]
+  # nocache do not use the cache when building the image
+  #
+  # Last line stream is "Successfully built bfa2cdabeb02"
+  def build_from_url(url, options = {}, timeout = nil, &block)
+    
+    # TODO URL muss encoded werden!!! -> sollte eigenltich CURB machen???
+    
+    params = options.merge({ remote: url })
+    @connection.stream("/build", params, timeout, &block).status
+  end
+  
   private
   
     def raise_if_image_not_found(status)
