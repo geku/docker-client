@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/containers/ps?since=12433dcd5b7a
+    uri: http://10.0.6.2:4243/containers/ps?since=e50696c70768
     body:
       encoding: US-ASCII
       string: ''
@@ -16,19 +16,52 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTkw
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1NiBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siSWQiOiIyZTMxMWMxMjFhMjg2ZWM4MGJlMDMwMWQxMjcxMGRkOGExZGUw
-        ZDM1OGZjNDZlYjE2NGIwMzNiMWY3Y2M2ZGZmIiwiSW1hZ2UiOiJiYXNlOmxh
-        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM2OTQ5NzkxMywi
-        U3RhdHVzIjoiRXhpdCAwIiwiUG9ydHMiOiIifV0=
+        W3siSWQiOiI0OWFiMWFkMzYyZmI2NDY1YTBjOWM4MDMzNDUzNDljZjM0YTRi
+        MzY0NjUyOGZiZmM3OTAzNzA3ZTQxNTg3MGI3IiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3Nzk0MzY3Niwi
+        U3RhdHVzIjoiRXhpdCAwIiwiUG9ydHMiOiIiLCJTaXplUnciOjAsIlNpemVS
+        b290RnMiOjB9XQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:15 GMT
+  recorded_at: Sat, 31 Aug 2013 10:08:00 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/containers/ps?since=ad1a1d618abd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTkw
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siSWQiOiIzZjExZWFiMWIzNzE0M2Q4MzYzMDA3MDIxNzNlOGQ0YmM0MmE5
+        MTgxNGJlZmY5Y2Y4ZTdiYWIwZDAwYWZlNDY0IiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3Nzk0Mzg5MCwi
+        U3RhdHVzIjoiRXhpdCAwIiwiUG9ydHMiOiIiLCJTaXplUnciOjAsIlNpemVS
+        b290RnMiOjB9XQ==
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:34 GMT
 recorded_with: VCR 2.5.0

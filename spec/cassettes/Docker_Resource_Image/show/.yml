@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/images/base/json
+    uri: http://10.0.6.2:4243/images/base/json
     body:
       encoding: US-ASCII
       string: ''
@@ -16,12 +16,12 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NTc5
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo0OCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0NyBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -36,7 +36,8 @@ http_interactions:
         ZXJyIjpmYWxzZSwiUG9ydFNwZWNzIjpudWxsLCJUdHkiOnRydWUsIk9wZW5T
         dGRpbiI6dHJ1ZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpudWxsLCJDbWQi
         OlsiL2Jpbi9iYXNoIl0sIkRucyI6bnVsbCwiSW1hZ2UiOiJiYXNlIiwiVm9s
-        dW1lcyI6bnVsbCwiVm9sdW1lc0Zyb20iOiIifX0=
+        dW1lcyI6bnVsbCwiVm9sdW1lc0Zyb20iOiIiLCJFbnRyeXBvaW50IjpudWxs
+        LCJOZXR3b3JrRGlzYWJsZWQiOmZhbHNlfSwiU2l6ZSI6MjQ2NTN9
     http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:48 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:51 GMT
 recorded_with: VCR 2.5.0

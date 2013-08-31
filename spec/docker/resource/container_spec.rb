@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Resource::Container do
-  subject(:containers) { Docker::API.new(base_url: 'http://10.0.5.5:4243').containers }
+  subject(:containers) { container_resource }
   
   describe "lists", :vcr do
     before(:all) {
@@ -49,8 +49,6 @@ describe Docker::Resource::Container do
       status = subject.create(hello_world_command, 'base')
       status.should be_kind_of(Hash)
       status.should have_key('Id')
-      status.should have_key('Warnings')
-      status['Warnings'].should be_nil
       @container_id = status['Id']
     end
     
@@ -99,7 +97,13 @@ describe Docker::Resource::Container do
     it "the low level details" do
       details = subject.show(@c)
       details.should be_kind_of(Hash)
-      details['Id'].should include(@c)
+      details['ID'].should include(@c)
+    end
+
+    it "raises an exception for an unknown container" do
+      expect {
+        subject.show('invalid_id')
+      }.to raise_error(Docker::Error::ContainerNotFound)
     end
   end
   
@@ -112,7 +116,7 @@ describe Docker::Resource::Container do
     it "inspects the container's filesystem changes" do
       changes = subject.changes(@c)
       changes.should be_kind_of(Array)
-      changes.any? {|c| c['path'] == '/tmp/changes'}
+      changes.any? {|c| c['Path'] == '/tmp/changes'}.should be_true
     end
   end
   
@@ -235,9 +239,7 @@ describe Docker::Resource::Container do
       received_data.size.should >= 2
     end
     
-    # TODO fails because docker always returns status 200
-    # See https://github.com/dotcloud/docker/issues/718
-    xit "raises an exception for an unknown container" do
+    it "raises an exception for an unknown container" do
       expect {
         subject.attach('invalid_id') {  }
       }.to raise_error(Docker::Error::ContainerNotFound)
@@ -260,9 +262,7 @@ describe Docker::Resource::Container do
       output.should include("stderr")
     end
     
-    # TODO fails because docker always returns status 200
-    # See https://github.com/dotcloud/docker/issues/718
-    xit "raises an exception for an unknown container" do
+    it "raises an exception for an unknown container" do
       expect {
         subject.logs('invalid_id')
       }.to raise_error(Docker::Error::ContainerNotFound)
@@ -270,10 +270,10 @@ describe Docker::Resource::Container do
   end
   
   describe "wait", :vcr do
-    before { 
+    before(:all) { 
       @c = create_and_start_container('container_wait', command: ['sleep', '3'])
     }
-    after { delete_containers(@c) }
+    after(:all) { delete_containers(@c) }
     
     it "blocks until the container stops" do
       status = subject.wait(@c)

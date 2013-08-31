@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/containers/ps
+    uri: http://10.0.6.2:4243/containers/ps
     body:
       encoding: US-ASCII
       string: ''
@@ -16,25 +16,20 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjA1
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1MSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siSWQiOiIwMTkzMzZlMTdkZDNjYjI3MWE5ZjA4ZDg2OTMxMWM5MzAwMTdi
-        OWE1ZjBiNDBlZjFkYTE1ZjU2YTFlMGE5YzRlIiwiSW1hZ2UiOiJiYXNlOmxh
-        dGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7IGRvIGVj
-        aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzY5
-        NDk3MjA1LCJTdGF0dXMiOiJVcCAxMiBtaW51dGVzIiwiUG9ydHMiOiIifSx7
-        IklkIjoiNjhjZmU1YjJjZTYwMGQ4MGFkY2I0ZmU2NmFkOWMwYzhhYzEyYjhk
-        OWNhNjhjOWFjZmEyNmU3OGM2ZGZjMzgzNSIsIkltYWdlIjoiYmFzZTpsYXRl
-        c3QiLCJDb21tYW5kIjoiL2Jpbi9zaCAtYyB3aGlsZSB0cnVlOyBkbyBlY2hv
-        IGhlbGxvIHdvcmxkOyBzbGVlcCAxOyBkb25lIiwiQ3JlYXRlZCI6MTM2OTQ5
-        NjY4MywiU3RhdHVzIjoiVXAgMjAgbWludXRlcyIsIlBvcnRzIjoiIn1d
+        W3siSWQiOiJlMTc4OTc4NWExYzYxOWQyODZjNTY1MWI5OGFmYzc2ZWYxYjNi
+        OTgxM2I2YmQ3ODE3ODk3ZDBlNzIzOGMwMDE3IiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3Nzk0MzY3MSwi
+        U3RhdHVzIjoiVXAgTGVzcyB0aGFuIGEgc2Vjb25kIiwiUG9ydHMiOiIiLCJT
+        aXplUnciOjAsIlNpemVSb290RnMiOjB9XQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:43 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:55 GMT
 recorded_with: VCR 2.5.0

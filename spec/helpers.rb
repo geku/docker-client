@@ -68,6 +68,10 @@ module Helpers
     end
   end
   
+  def uri_for(path)
+    "#{ENV['DOCKER_BASE_URL']}/#{path}"
+  end
+  
   def image_resource
     @_image ||= docker_resource.images
   end
@@ -81,7 +85,7 @@ module Helpers
   end
   
   def docker_resource
-    @_docker ||= Docker::API.new(base_url: 'http://10.0.5.5:4243')
+    @_docker ||= Docker::API.new(base_url: ENV['DOCKER_BASE_URL'])
   end
   
 end

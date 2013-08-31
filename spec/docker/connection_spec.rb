@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Connection, :vcr do
-  subject { Docker::Connection.new(base_url: 'http://10.0.5.5:4243') }
+  subject { Docker::Connection.new(base_url: ENV['DOCKER_BASE_URL']) }
   
   it "throws an error without a base_url configured" do
     expect {
@@ -11,16 +11,16 @@ describe Docker::Connection, :vcr do
   
   it "sets given request headers" do
     subject.get('/pseudo_request', {}, {'Content-Type' => 'application/json'})
-    WebMock.should have_requested(:get, "10.0.5.5:4243/pseudo_request").with(:headers => {'Content-Type' => 'application/json'})
+    WebMock.should have_requested(:get, uri_for('pseudo_request')).with(:headers => {'Content-Type' => 'application/json'})
   end
   
   it "sets given query parameters" do
     subject.get('/pseudo_params', {first: 'argument', second: 'param'})
-    WebMock.should have_requested(:get, "10.0.5.5:4243/pseudo_params").with(:query => hash_including({'first' => 'argument', 'second' => 'param'}))
+    WebMock.should have_requested(:get, uri_for('pseudo_params')).with(:query => hash_including({'first' => 'argument', 'second' => 'param'}))
   end
   
   it "returns a valid response for a basic request" do
-    response = subject.send(:perform_request, :GET, '/containers/ps', {}, nil, {})
+    response = subject.send(:perform_request, :GET, '/containers/ps', {}, {}, nil)
     response.should be_kind_of(Docker::Connection::Response)
     response.status.should == 200
     response.content_type.should == "application/json"
@@ -28,7 +28,7 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns status 404 for non existent path" do
-    response = subject.send(:perform_request, :GET, '/invalid_path', {}, nil, {})
+    response = subject.send(:perform_request, :GET, '/invalid_path', {}, {}, nil)
     response.status.should == 404
   end
   
@@ -54,7 +54,7 @@ describe Docker::Connection, :vcr do
   end
   
   it "returns a stream", :live do
-    id = create_and_start_container(command: hello_world_command)
+    id = create_and_start_container('test-returns-a-stream', command: hello_world_command)
     received_data = []
     params = {stream: 1, stdout: 1}
     timeout = 2

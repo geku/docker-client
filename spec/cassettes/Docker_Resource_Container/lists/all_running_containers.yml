@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/containers/ps
+    uri: http://10.0.6.2:4243/containers/ps
     body:
       encoding: US-ASCII
       string: ''
@@ -16,31 +16,32 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NzU0
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMCBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3siSWQiOiIxMjQzM2RjZDViN2EyNGZmMTdhMmFmN2U2NDdmYjM2M2ZmZmRk
-        MzYzMDhkYTQ4NWUyY2Y2NDNkYjdlOTc2MTExIiwiSW1hZ2UiOiJiYXNlOmxh
+        W3siSWQiOiJhZDFhMWQ2MThhYmQzZjE1ZTJmYjFkNTQ5NmNiODM4ZGRjMWI1
+        ODQwNjFhOWFhYmY2YWYyNTA0NzU3MjE5MGE2IiwiSW1hZ2UiOiJiYXNlOmxh
         dGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7IGRvIGVj
-        aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzY5
-        NDk3OTEyLCJTdGF0dXMiOiJVcCBMZXNzIHRoYW4gYSBzZWNvbmQiLCJQb3J0
-        cyI6IiJ9LHsiSWQiOiIwMTkzMzZlMTdkZDNjYjI3MWE5ZjA4ZDg2OTMxMWM5
-        MzAwMTdiOWE1ZjBiNDBlZjFkYTE1ZjU2YTFlMGE5YzRlIiwiSW1hZ2UiOiJi
-        YXNlOmxhdGVzdCIsIkNvbW1hbmQiOiIvYmluL3NoIC1jIHdoaWxlIHRydWU7
-        IGRvIGVjaG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVk
-        IjoxMzY5NDk3MjA1LCJTdGF0dXMiOiJVcCAxMSBtaW51dGVzIiwiUG9ydHMi
-        OiIifSx7IklkIjoiNjhjZmU1YjJjZTYwMGQ4MGFkY2I0ZmU2NmFkOWMwYzhh
-        YzEyYjhkOWNhNjhjOWFjZmEyNmU3OGM2ZGZjMzgzNSIsIkltYWdlIjoiYmFz
-        ZTpsYXRlc3QiLCJDb21tYW5kIjoiL2Jpbi9zaCAtYyB3aGlsZSB0cnVlOyBk
-        byBlY2hvIGhlbGxvIHdvcmxkOyBzbGVlcCAxOyBkb25lIiwiQ3JlYXRlZCI6
-        MTM2OTQ5NjY4MywiU3RhdHVzIjoiVXAgMjAgbWludXRlcyIsIlBvcnRzIjoi
-        In1d
+        aG8gaGVsbG8gd29ybGQ7IHNsZWVwIDE7IGRvbmUiLCJDcmVhdGVkIjoxMzc3
+        OTQzODkwLCJTdGF0dXMiOiJVcCBMZXNzIHRoYW4gYSBzZWNvbmQiLCJQb3J0
+        cyI6IiIsIlNpemVSdyI6MCwiU2l6ZVJvb3RGcyI6MH0seyJJZCI6IjAxYTdm
+        NjU3NzY5MTgwMmY4M2ZkM2Q2ZDhhMjM2YTFiOTdjZGM4NWMwMTMwNGJmNWI4
+        NTUyNzRjNDYzMDFjZmUiLCJJbWFnZSI6ImJhc2U6bGF0ZXN0IiwiQ29tbWFu
+        ZCI6Ii9iaW4vc2ggLWMgd2hpbGUgdHJ1ZTsgZG8gZWNobyBoZWxsbyB3b3Js
+        ZDsgc2xlZXAgMTsgZG9uZSIsIkNyZWF0ZWQiOjEzNzc5NDM2ODYsIlN0YXR1
+        cyI6IlVwIDMgbWludXRlcyIsIlBvcnRzIjoiIiwiU2l6ZVJ3IjowLCJTaXpl
+        Um9vdEZzIjowfSx7IklkIjoiZTUwNjk2YzcwNzY4MDc3YTNiYzA5ZjZjMzVh
+        ODM4YWYwMTE1ZGE5MTljZWQ4YWFjZmQzMGQwNzBiNDcwMjRiNiIsIkltYWdl
+        IjoiYmFzZTpsYXRlc3QiLCJDb21tYW5kIjoiL2Jpbi9zaCAtYyB3aGlsZSB0
+        cnVlOyBkbyBlY2hvIGhlbGxvIHdvcmxkOyBzbGVlcCAxOyBkb25lIiwiQ3Jl
+        YXRlZCI6MTM3Nzk0MzY3NSwiU3RhdHVzIjoiVXAgMyBtaW51dGVzIiwiUG9y
+        dHMiOiIiLCJTaXplUnciOjAsIlNpemVSb290RnMiOjB9XQ==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:15 GMT
+  recorded_at: Sat, 31 Aug 2013 10:11:34 GMT
 recorded_with: VCR 2.5.0

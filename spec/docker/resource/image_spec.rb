@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Resource::Image do
-  let(:docker) { Docker::API.new(base_url: 'http://10.0.5.5:4243') }
+  let(:docker) { docker_resource }
   subject(:image) { docker.images }
   
   describe "list", :vcr do

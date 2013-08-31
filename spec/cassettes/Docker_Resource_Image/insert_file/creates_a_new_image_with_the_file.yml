@@ -2,7 +2,35 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/images/b551900d82d81b489dd7e820074575c5e8c5cf5bca907cdcfcd58ab9ee3eb7c1/json
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjU=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAwOTo0ODoyNyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6IiJ9Cg==
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 09:48:30 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/images/base/insert?path=/tmp/new_file&url=https://raw.github.com/geku/docker-client/master/README.md
     body:
       encoding: US-ASCII
       string: ''
@@ -18,62 +46,18 @@ http_interactions:
         YXBwbGljYXRpb24vanNvbg==
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0Nzo0MyBHTVQ=
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0NyBHTVQ=
       !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
       - !binary |-
         Y2h1bmtlZA==
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJpZCI6ImI1NTE5MDBkODJkODFiNDg5ZGQ3ZTgyMDA3NDU3NWM1ZThjNWNm
-        NWJjYTkwN2NkY2ZjZDU4YWI5ZWUzZWI3YzEiLCJwYXJlbnQiOiJiNzUwZmU3
-        OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNjYjJjMjFk
-        NTg5ZmYyZjVmMmRjIiwiY3JlYXRlZCI6IjIwMTMtMDUtMjlUMTc6NDc6NDIu
-        OTMyNzc4WiIsImNvbnRhaW5lciI6ImFiODU4NzJhN2VkZmE1MjBkNDEzYzFl
-        NTVhOTE1MzliZWM2NTRhMDBjNmQ2NWU1OGRiMjZiMjUzYjMzNzg4ZDkiLCJj
-        b250YWluZXJfY29uZmlnIjp7Ikhvc3RuYW1lIjoiYWI4NTg3MmE3ZWRmIiwi
-        VXNlciI6IiIsIk1lbW9yeSI6MCwiTWVtb3J5U3dhcCI6MCwiQ3B1U2hhcmVz
-        IjowLCJBdHRhY2hTdGRpbiI6ZmFsc2UsIkF0dGFjaFN0ZG91dCI6dHJ1ZSwi
-        QXR0YWNoU3RkZXJyIjp0cnVlLCJQb3J0U3BlY3MiOm51bGwsIlR0eSI6ZmFs
-        c2UsIk9wZW5TdGRpbiI6ZmFsc2UsIlN0ZGluT25jZSI6ZmFsc2UsIkVudiI6
-        bnVsbCwiQ21kIjpbImVjaG8iLCJpbnNlcnQiLCJodHRwczovL3Jhdy5naXRo
-        dWIuY29tL2dla3UvZG9ja2VyLWNsaWVudC9tYXN0ZXIvUkVBRE1FLm1kIiwi
-        L3RtcC9uZXdfZmlsZSJdLCJEbnMiOm51bGwsIkltYWdlIjoiYjc1MGZlNzky
-        NjlkMmVjOWEzYzU5M2VmMDViNDMzMmIxZDFhMDJhNjJiNGFjY2IyYzIxZDU4
-        OWZmMmY1ZjJkYyIsIlZvbHVtZXMiOnt9LCJWb2x1bWVzRnJvbSI6IiJ9LCJk
-        b2NrZXJfdmVyc2lvbiI6IjAuMy4yIn0=
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:47:43 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/images/base/insert?path=/tmp/new_file&url=https://raw.github.com/geku/docker-client/master/README.md
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo1MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:53 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:51 GMT
 - request:
     method: get
-    uri: http://10.0.5.5:4243/images/%7B%22Id%22:%22b70cc26ffdfb%22%7D/json
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22c6b813b92846%22%7D/json
     body:
       encoding: US-ASCII
       string: ''
@@ -87,16 +71,16 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo1MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0NyBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImI3MGNjMjZmZmRmYiJ9Cg==
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImM2YjgxM2I5Mjg0NiJ9Cg==
     http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:53 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:51 GMT
 recorded_with: VCR 2.5.0

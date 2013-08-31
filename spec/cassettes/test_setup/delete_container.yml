@@ -2,1663 +2,94 @@
 http_interactions:
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/12433dcd5b7a?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:19 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/2e311c121a28?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:19 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/7e6c6c5c2b3b?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxNyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:19 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/e6fa2f7eb0b6?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyMCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:22 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/499c5c8ac48a?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:26 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/167951f02581?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:27 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/1d77a3257ed8?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToyNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:27 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/95fbeced7a97?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/a8eb3552f203?v=true
+    uri: http://10.0.6.2:4243/containers/edf79ab2f9df?v=true
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 204
+      code: 406
       message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/4adae41f4ddb?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/9f79b401cf57?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:34 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/8fab97b08092?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:35 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/3700641d93de?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:43 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/b8439f302512?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:43 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/fce2d68ed548?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoxODozNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:18:34 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/dfd29265bb35?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoxODozNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:18:34 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/8bc9b629f9fe?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyMTo0MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:21:43 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/576c4dfca1c6?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyMTo0NCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:21:44 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/81c6200a31e5?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyMjo0MCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:22:40 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/0d59d2d2a28c?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyMjo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:22:41 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/0da1766b2aab?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyMzoyNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:23:26 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/e436c553a031?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxODoyNzoyMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 18:27:21 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/d83b15bc2eb5?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAxOTozOToyMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 19:39:23 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/7af386be68c9?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxMTozMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:11:31 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/8bdf8e282ecb?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxMTozMiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:11:32 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/6c67f6f4e00d?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxMzoyNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:13:25 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/261ad67b506c?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxMzoyNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:13:26 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/26f3144b82d0?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxNjoxNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:16:16 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/789bc9691c21?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxNjoxNyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:16:17 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/d096c6525b51?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxNjo1MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:16:51 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/b42589ea0f01?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoxNzozNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:17:35 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/d2458d25a677?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyMzowNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:23:05 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/6927ef02d514?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyMzo1MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:23:53 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/919f1a8e2565?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNDoxNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:24:15 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/90db053dca05?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNDo1MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:24:53 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/efbecde84b6d?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNToxMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:25:11 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/9b5cc656e3a4?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNjo1NCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:26:54 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/aec09b90bffb?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNzowNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:27:06 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/37387ab9a82b?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyNzo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:27:41 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/3a3d98d2dc96?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyODoxMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:28:13 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/e3e944e8c1d4?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzoyODozNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:28:36 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/542e024f3b33?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzozMDo0MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:30:43 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/b28f63974b84?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzozMTo1NyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:31:57 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/7c2363a92d46?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzozMjozMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:32:33 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/0159c1995d6e?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzozMjo1MCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:32:50 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/e56b6b68c817?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAyNyBNYXkgMjAxMyAyMzozMzoxMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Mon, 27 May 2013 23:33:13 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/c0783f5fa4226adce413aaf63e8b518bb5d962368744ea5930be836c6eeb9fa7?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 404
-      message: !binary |-
-        Tm90IEZvdW5k
+        Tm90IEFjY2VwdGFibGU=
     headers:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzoxODowNyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNDowMSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        Tm8gc3VjaCBjb250YWluZXI6IGMwNzgzZjVmYTQyMjZhZGNlNDEzYWFmNjNl
-        OGI1MThiYjVkOTYyMzY4NzQ0ZWE1OTMwYmU4MzZjNmVlYjlmYTcK
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
     http_version: 
-  recorded_at: Wed, 29 May 2013 17:18:07 GMT
+  recorded_at: Sat, 31 Aug 2013 10:04:05 GMT
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/46d6b993543cf7be0aa38689e07d02c8c3e4aecf7c6605da29206e7867c22a92?v=true
+    uri: http://10.0.6.2:4243/containers/4a4da244a2cd?v=true
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 204
+      code: 406
       message: !binary |-
-        Tm8gQ29udGVudA==
+        Tm90IEFjY2VwdGFibGU=
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0MTo1MCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNDowNyBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: !binary ""
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
     http_version: 
-  recorded_at: Wed, 29 May 2013 17:41:50 GMT
+  recorded_at: Sat, 31 Aug 2013 10:04:11 GMT
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/ef0c65217c55c81dfae8c8db78fb0bc5684ffbefb22c67e457868fba3ba86895?v=true
+    uri: http://10.0.6.2:4243/containers/dc3f8c55c0fc?v=true
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 204
+      code: 406
       message: !binary |-
-        Tm8gQ29udGVudA==
+        Tm90IEFjY2VwdGFibGU=
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0MzozMyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:43:33 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/89580effc6ba95a2d5da8fdce20bb6682b7d560b519e9281a52cdd640ff31457?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0NDo0NSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzowOSBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: !binary ""
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
     http_version: 
-  recorded_at: Wed, 29 May 2013 17:44:45 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:13 GMT
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/953be29495f926af01ab39aaaac7910a699be24816892bb710e4bfd9b491d59b?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0NTo0NSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:45:45 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/3d79e66dcc6b28d411dbc4c3ed2dde6d11e01d33a0303305696c77a7d4be4871?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0Njo1MiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:46:52 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/ab85872a7edfa520d413c1e55a91539bec654a00c6d65e58db26b253b33788d9?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo0Nzo0MyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:47:43 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/138b56323db8?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo1NTowMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:55:01 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/6936b61594d2?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxNzo1NToxMCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 17:55:10 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/6f0a7b48a8e0?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo0NyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:47 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/1050386b0001?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo1NCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:54 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/d5c17e52ed63?v=true
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 204
-      message: !binary |-
-        Tm8gQ29udGVudA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxODoyMDo1NSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary ""
-    http_version: 
-  recorded_at: Wed, 29 May 2013 18:20:55 GMT
-- request:
-    method: delete
-    uri: http://10.0.5.5:4243/containers/34a06eb40189?v=true
+    uri: http://10.0.6.2:4243/containers/2a60fccfa7bb?v=true
     body:
       encoding: US-ASCII
       string: ''
@@ -1677,15 +108,15 @@ http_interactions:
         MA==
       !binary "RGF0ZQ==":
       - !binary |-
-        V2VkLCAyOSBNYXkgMjAxMyAxOToyMDozMSBHTVQ=
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0NiBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary ""
     http_version: 
-  recorded_at: Wed, 29 May 2013 19:20:31 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:50 GMT
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/857e206e1145?v=true
+    uri: http://10.0.6.2:4243/containers/6c772747f9f6?v=true
     body:
       encoding: US-ASCII
       string: ''
@@ -1704,15 +135,15 @@ http_interactions:
         MA==
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMDo0MDo1OSBHTVQ=
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0OSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary ""
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 20:40:59 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:53 GMT
 - request:
     method: delete
-    uri: http://10.0.5.5:4243/containers/3c4f0025a4e8?v=true
+    uri: http://10.0.6.2:4243/containers/b1162c0bafa6?v=true
     body:
       encoding: US-ASCII
       string: ''
@@ -1731,10 +162,892 @@ http_interactions:
         MA==
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMDo0ODowNiBHTVQ=
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1MSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary ""
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 20:48:06 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:54 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/e1789785a1c6?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1MSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:07:55 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/967816c344d4?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1NSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:07:59 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/e50696c70768?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1NiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:00 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/49ab1ad362fb?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1NiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:00 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/17a967981d76?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODowMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:03 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/268d92f20c1a?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODowMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:04 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/7b5255ad6a3c?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODowNiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:10 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/01a7f6577691?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:14 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/f2096f4d46f5?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxMyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:17 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/0942073a66ec?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:23 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/8f685297cff9?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:23 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/98908d51b5e2?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:23 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/ed011cf45a3c?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:23 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/fb9632a88e6f?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowODoyMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:08:25 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/a15ba7513cfb?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMToyOCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:32 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/3b0f9febed1b?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMToyOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:33 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/ad1a1d618abd?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:34 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/3f11eab1b371?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:35 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/45d6106496c9?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:35 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/15d1b045e6de?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:36 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/8589a9846532?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:37 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/070d4546bf89?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozOCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:42 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/a5b1e1c09c0a?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo0NCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:48 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/3680bdfea9f2?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo0NSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:49 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/ea7ed509d393?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo1MCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:54 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/57c5f21e511e?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo1MSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:55 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/fb79217097f6?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo1MyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:11:57 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/8ba6fe19317e?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMjozMiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:12:36 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/1d1a7891787b?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMjo0NiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:12:50 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/9a5034f10129?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 204
+      message: !binary |-
+        Tm8gQ29udGVudA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMjo1OCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:13:02 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/3c1020ed098a?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxNjoxNCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:16:18 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/containers/752de4f5db60?v=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 406
+      message: !binary |-
+        Tm90IEFjY2VwdGFibGU=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxNjoxNyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        SW1wb3NzaWJsZSB0byByZW1vdmUgYSBydW5uaW5nIGNvbnRhaW5lciwgcGxl
+        YXNlIHN0b3AgaXQgZmlyc3QK
+    http_version: 
+  recorded_at: Sat, 31 Aug 2013 10:16:21 GMT
 recorded_with: VCR 2.5.0

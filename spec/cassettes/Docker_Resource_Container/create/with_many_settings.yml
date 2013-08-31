@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/create
+    uri: http://10.0.6.2:4243/containers/create
     body:
       encoding: UTF-8
       string: ! '{"Hostname":"test-container","User":"test","Memory":33554432,"MemorySwap":67108864,"CpuShares":1,"AttachStdin":false,"AttachStdout":true,"AttachStderr":true,"PortSpecs":["80","443"],"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PORT=5000","ENVIRONTMENT=production"],"Dns":null,"Volumes":{"/var/lib/app":{}},"VolumesFrom":"","Cmd":["echo","hello
@@ -16,21 +16,21 @@ http_interactions:
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTozMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTEz
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMiBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjRhZGFlNDFmNGRkYiIsIldhcm5pbmdzIjpbIllvdXIga2VybmVs
+        eyJJZCI6IjE1ZDFiMDQ1ZTZkZSIsIldhcm5pbmdzIjpbIllvdXIga2VybmVs
         IGRvZXMgbm90IHN1cHBvcnQgbWVtb3J5IHN3YXAgY2FwYWJpbGl0aWVzLiBM
         aW1pdGF0aW9uIGRpc2NhcmRlZC4iXX0=
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:33 GMT
+  recorded_at: Sat, 31 Aug 2013 10:11:36 GMT
 recorded_with: VCR 2.5.0

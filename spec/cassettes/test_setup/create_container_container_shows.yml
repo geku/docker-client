@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/create
+    uri: http://10.0.6.2:4243/containers/create
     body:
       encoding: UTF-8
       string: ! '{"Cmd":["env"],"Image":"base"}'
@@ -15,19 +15,19 @@ http_interactions:
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNToxNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMjo1OCBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjdlNmM2YzVjMmIzYiIsIldhcm5pbmdzIjpudWxsfQ==
+        eyJJZCI6IjlhNTAzNGYxMDEyOSJ9
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:19 GMT
+  recorded_at: Sat, 31 Aug 2013 10:13:02 GMT
 recorded_with: VCR 2.5.0

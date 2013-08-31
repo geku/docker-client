@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://10.0.5.5:4243/pseudo_params?first=argument&second=param
+    uri: http://10.0.6.2:4243/pseudo_params?first=argument&second=param
     body:
       encoding: US-ASCII
       string: ''
@@ -16,16 +16,16 @@ http_interactions:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTk=
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAyNSBNYXkgMjAxMyAxNjowNTo0MCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1MSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         NDA0IHBhZ2Ugbm90IGZvdW5kCg==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:43 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:55 GMT
 recorded_with: VCR 2.5.0
