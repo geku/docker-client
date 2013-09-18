@@ -84,4 +84,88 @@ http_interactions:
         eyJJZCI6ImNkZDgyN2Q4YTU2YyJ9
     http_version: 
   recorded_at: Sat, 31 Aug 2013 10:07:54 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/commit?container=3e3eb13fd666&repo=push_image_test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImU3NGQ4OGQwNzBkNSJ9
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:19 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/commit?container=0c85dc6fdd47&repo=test-tag
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6ImY1MmU2MTRhMmEzOSJ9
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:20 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/commit?container=3f917e729a3c&repo=test-image
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 201
+      message: !binary |-
+        Q3JlYXRlZA==
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJZCI6IjgyMmYxOGI4OGE4ZCJ9
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:22 GMT
 recorded_with: VCR 2.5.0

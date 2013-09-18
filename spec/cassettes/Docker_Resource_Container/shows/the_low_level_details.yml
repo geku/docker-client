@@ -230,4 +230,51 @@ http_interactions:
         LmNvbmYiLCJWb2x1bWVzIjpudWxsLCJWb2x1bWVzUlciOm51bGx9
     http_version: 
   recorded_at: Sat, 31 Aug 2013 10:13:02 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/containers/388cd4cc3ea0/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODg0
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxNSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJJRCI6IjM4OGNkNGNjM2VhMGYzMDRhZDI1ZTFlMGI5YzIzNDA5NGJiMTcx
+        MWJhOWQyMDE0ODA2NmEzMjZiNTMwN2M3NWIiLCJDcmVhdGVkIjoiMjAxMy0w
+        OS0xOFQxOTo0MDoxNS42NDg0NzgzMDgrMDI6MDAiLCJQYXRoIjoiZW52Iiwi
+        QXJncyI6W10sIkNvbmZpZyI6eyJIb3N0bmFtZSI6IjM4OGNkNGNjM2VhMCIs
+        IlVzZXIiOiIiLCJNZW1vcnkiOjAsIk1lbW9yeVN3YXAiOjAsIkNwdVNoYXJl
+        cyI6MCwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNl
+        LCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJQb3J0U3BlY3MiOm51bGwsIlR0eSI6
+        ZmFsc2UsIk9wZW5TdGRpbiI6ZmFsc2UsIlN0ZGluT25jZSI6ZmFsc2UsIkVu
+        diI6bnVsbCwiQ21kIjpbImVudiJdLCJEbnMiOm51bGwsIkltYWdlIjoiYmFz
+        ZSIsIlZvbHVtZXMiOm51bGwsIlZvbHVtZXNGcm9tIjoiIiwiV29ya2luZ0Rp
+        ciI6IiIsIkVudHJ5cG9pbnQiOm51bGwsIk5ldHdvcmtEaXNhYmxlZCI6ZmFs
+        c2UsIlByaXZpbGVnZWQiOmZhbHNlfSwiU3RhdGUiOnsiUnVubmluZyI6ZmFs
+        c2UsIlBpZCI6MCwiRXhpdENvZGUiOjAsIlN0YXJ0ZWRBdCI6IjAwMDEtMDEt
+        MDFUMDA6MDA6MDBaIiwiR2hvc3QiOmZhbHNlfSwiSW1hZ2UiOiJiNzUwZmU3
+        OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNjYjJjMjFk
+        NTg5ZmYyZjVmMmRjIiwiTmV0d29ya1NldHRpbmdzIjp7IklQQWRkcmVzcyI6
+        IiIsIklQUHJlZml4TGVuIjowLCJHYXRld2F5IjoiIiwiQnJpZGdlIjoiIiwi
+        UG9ydE1hcHBpbmciOm51bGx9LCJTeXNJbml0UGF0aCI6Ii91c3IvYmluL2Rv
+        Y2tlciIsIlJlc29sdkNvbmZQYXRoIjoiL2V0Yy9yZXNvbHYuY29uZiIsIlZv
+        bHVtZXMiOm51bGwsIlZvbHVtZXNSVyI6bnVsbH0=
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:15 GMT
 recorded_with: VCR 2.5.0

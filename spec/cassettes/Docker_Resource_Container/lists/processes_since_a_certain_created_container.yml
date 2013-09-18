@@ -64,4 +64,36 @@ http_interactions:
         b290RnMiOjB9XQ==
     http_version: 
   recorded_at: Sat, 31 Aug 2013 10:11:34 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/containers/ps?since=becdef70fdce
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTkw
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxNiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siSWQiOiI5MTdiZTU1ODYwN2YyODJiZGJkOWFiNmJiYjU1ODhlMjg4NWQx
+        MWFiNzUxMTQ1MjM2NzNlMjMxNDBiMjEwY2U5IiwiSW1hZ2UiOiJiYXNlOmxh
+        dGVzdCIsIkNvbW1hbmQiOiJlbnYgIiwiQ3JlYXRlZCI6MTM3OTUyNjAxNiwi
+        U3RhdHVzIjoiRXhpdCAwIiwiUG9ydHMiOiIiLCJTaXplUnciOjAsIlNpemVS
+        b290RnMiOjB9XQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:16 GMT
 recorded_with: VCR 2.5.0

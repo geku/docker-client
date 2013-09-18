@@ -24,11 +24,11 @@ http_interactions:
         MjE=
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTo0NiBHTVQ=
+        V2VkLCAxOCBTZXAgMjAxMyAxNzozOTo1NSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6ImVhN2VkNTA5ZDM5MyJ9
+        eyJJZCI6IjJkNTQ1N2MwYThlMyJ9
     http_version: 
-  recorded_at: Sat, 31 Aug 2013 10:11:49 GMT
+  recorded_at: Wed, 18 Sep 2013 17:39:55 GMT
 recorded_with: VCR 2.5.0

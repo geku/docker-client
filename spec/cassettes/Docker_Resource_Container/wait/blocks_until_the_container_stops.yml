@@ -56,4 +56,32 @@ http_interactions:
         eyJTdGF0dXNDb2RlIjowfQ==
     http_version: 
   recorded_at: Sat, 31 Aug 2013 10:11:42 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/containers/376e8b60a8ac/wait
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTY=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJTdGF0dXNDb2RlIjowfQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:11 GMT
 recorded_with: VCR 2.5.0

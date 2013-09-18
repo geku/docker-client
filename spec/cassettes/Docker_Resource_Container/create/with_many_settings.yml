@@ -24,13 +24,13 @@ http_interactions:
         MTEz
       !binary "RGF0ZQ==":
       - !binary |-
-        U2F0LCAzMSBBdWcgMjAxMyAxMDoxMTozMiBHTVQ=
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxMyBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjE1ZDFiMDQ1ZTZkZSIsIldhcm5pbmdzIjpbIllvdXIga2VybmVs
+        eyJJZCI6IjdjZTMyZThhMmY0OCIsIldhcm5pbmdzIjpbIllvdXIga2VybmVs
         IGRvZXMgbm90IHN1cHBvcnQgbWVtb3J5IHN3YXAgY2FwYWJpbGl0aWVzLiBM
         aW1pdGF0aW9uIGRpc2NhcmRlZC4iXX0=
     http_version: 
-  recorded_at: Sat, 31 Aug 2013 10:11:36 GMT
+  recorded_at: Wed, 18 Sep 2013 17:40:13 GMT
 recorded_with: VCR 2.5.0
