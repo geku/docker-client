@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Connection, :vcr do
-  subject { Docker::Connection.new(base_url: 'http://10.0.5.5:4243') }
+  subject { Docker::Connection.new(base_url: ENV['DOCKER_BASE_URL']) }
   
   it "throws an error without a base_url configured" do
     expect {
@@ -11,12 +11,12 @@ describe Docker::Connection, :vcr do
   
   it "sets given request headers" do
     subject.get('/pseudo_request', {}, {'Content-Type' => 'application/json'})
-    WebMock.should have_requested(:get, "10.0.5.5:4243/pseudo_request").with(:headers => {'Content-Type' => 'application/json'})
+    WebMock.should have_requested(:get, uri_for('pseudo_request')).with(:headers => {'Content-Type' => 'application/json'})
   end
   
   it "sets given query parameters" do
     subject.get('/pseudo_params', {first: 'argument', second: 'param'})
-    WebMock.should have_requested(:get, "10.0.5.5:4243/pseudo_params").with(:query => hash_including({'first' => 'argument', 'second' => 'param'}))
+    WebMock.should have_requested(:get, uri_for('pseudo_params')).with(:query => hash_including({'first' => 'argument', 'second' => 'param'}))
   end
   
   it "returns a valid response for a basic request" do

@@ -2,422 +2,170 @@
 http_interactions:
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=c428968a78b6&repo=test-image
+    uri: http://10.0.6.2:4243/commit?container=2a60fccfa7bb&repo=test-tag
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowMDoxNSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0NiBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjVmZGU1NWI5OWQ1MyJ9
+        eyJJZCI6IjAxM2UwNmYyNzQzNCJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:00:15 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:50 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=17f43281496e&repo=test-tag
+    uri: http://10.0.6.2:4243/commit?container=6c772747f9f6&repo=push_image_test
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowMDoxNyBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo0OSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjdhZmU5OWIyNjZiMiJ9
+        eyJJZCI6IjQ0OTdkMjkyNzFmNCJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:00:17 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:53 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=ee4d3a14d3c6&repo=test-tag
+    uri: http://10.0.6.2:4243/commit?container=b1162c0bafa6&repo=test-image
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowNDo0NiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAxMDowNzo1MCBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6Ijk3Mzk1OTgyNmRkMCJ9
+        eyJJZCI6ImNkZDgyN2Q4YTU2YyJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:04:46 GMT
+  recorded_at: Sat, 31 Aug 2013 10:07:54 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=286af8bb0142&repo=test-image
+    uri: http://10.0.6.2:4243/commit?container=3e3eb13fd666&repo=push_image_test
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowNDo0OCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoxOSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjhhOTE5ZDc5YmVhNiJ9
+        eyJJZCI6ImU3NGQ4OGQwNzBkNSJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:04:48 GMT
+  recorded_at: Wed, 18 Sep 2013 17:40:19 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=093fe0394dd6&repo=test-image
+    uri: http://10.0.6.2:4243/commit?container=0c85dc6fdd47&repo=test-tag
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowOTozOSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyMCBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjA0MzY0OWEwMTFjNiJ9
+        eyJJZCI6ImY1MmU2MTRhMmEzOSJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:09:39 GMT
+  recorded_at: Wed, 18 Sep 2013 17:40:20 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/commit?container=ec87272f088a&repo=test-tag
+    uri: http://10.0.6.2:4243/commit?container=3f917e729a3c&repo=test-image
     body:
       encoding: US-ASCII
       string: ''
-    headers:
-      Content-Type:
-      - application/json
+    headers: {}
   response:
     status:
       code: 201
       message: !binary |-
         Q3JlYXRlZA==
     headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTowOTo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImMzM2RhYjg0ZmU2ZCJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:09:41 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=2da45de592e1&repo=test-image
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE=
       !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyMTo1NCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyMSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJJZCI6IjdhMDc3NjZiZDUxMSJ9
+        eyJJZCI6IjgyMmYxOGI4OGE4ZCJ9
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:21:54 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=9255ab6e2053&repo=test-tag
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyMTo1NiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImE1ZDI2ZmEzOWQyOSJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:21:56 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=028844c8efcd&repo=test-tag
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNToxNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImM5NTE3ZjI2ODA0ZSJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:25:14 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=d6d46b79024e&repo=test-image
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNToxNiBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6IjQ5NWE2MjQ4ODIwYyJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:25:16 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=dba4b0ef108f&repo=test-image
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNzozOSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6Ijg1OTdlMjQ2YjkxMiJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:27:39 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=be7774cf7e5f&repo=test-tag
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMToyNzo0MSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImI4NzE0NmVhNzVjNSJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:27:41 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=7ae604530e7b&repo=test-image
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTozNzo1OSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImJmZDQ5NWRhZDJlOCJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:37:59 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/commit?container=a376c65b71c3&repo=test-tag
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Content-Type:
-      - application/json
-  response:
-    status:
-      code: 201
-      message: !binary |-
-        Q3JlYXRlZA==
-    headers:
-      !binary "RGF0ZQ==":
-      - !binary |-
-        TW9uLCAwMyBKdW4gMjAxMyAyMTozODowMSBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJJZCI6ImU3NDAyYmQ2MTkwNyJ9
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:38:01 GMT
+  recorded_at: Wed, 18 Sep 2013 17:40:22 GMT
 recorded_with: VCR 2.5.0

@@ -2,11 +2,15 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'awesome_print'
+require 'dotenv'
 require 'webmock/rspec'
 require 'vcr'
 require 'docker'
 require 'helpers'
 
+# Load private ENV variables (create a .env file with DOCKER_USER=, 
+# DOCKER_PASSWORD=, DOCKER_EMAIL= for docker auth during live tests)
+Dotenv.load
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'

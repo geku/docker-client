@@ -18,7 +18,7 @@ task :default => :spec
 namespace :docker do
   desc "Stop and delete all Docker containers" 
   task :cleanup do
-    container = Docker::API.new(base_url: 'http://10.0.5.5:4243').containers
+    container = Docker::API.new(base_url: ENV['DOCKER_BASE_URL']).containers
     counter = 0
     container.list(all: true).each do |c|
       puts "Delete container #{c['Id']}"

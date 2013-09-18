@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::Resource::Container do
-  subject(:containers) { Docker::API.new(base_url: 'http://10.0.5.5:4243').containers }
+  subject(:containers) { container_resource }
   
   describe "lists", :vcr do
     before(:all) {
@@ -97,7 +97,7 @@ describe Docker::Resource::Container do
     it "the low level details" do
       details = subject.show(@c)
       details.should be_kind_of(Hash)
-      details['Id'].should include(@c)
+      details['ID'].should include(@c)
     end
 
     it "raises an exception for an unknown container" do

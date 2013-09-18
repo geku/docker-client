@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/167951f02581/attach?logs=true&stdout=true&stream=false
+    uri: http://10.0.6.2:4243/containers/f2096f4d46f5/attach?logs=true&stdout=true&stream=false
     body:
       encoding: US-ASCII
       string: ''
@@ -21,10 +21,10 @@ http_interactions:
       string: !binary |-
         c3Rkb3V0Cg==
     http_version: 
-  recorded_at: Sat, 25 May 2013 16:05:26 GMT
+  recorded_at: Sat, 31 Aug 2013 10:08:17 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/512c3ce5fbee/attach?logs=true&stdout=true&stream=false
+    uri: http://10.0.6.2:4243/containers/3b0f9febed1b/attach?logs=true&stdout=true&stream=false
     body:
       encoding: US-ASCII
       string: ''
@@ -43,10 +43,10 @@ http_interactions:
       string: !binary |-
         c3Rkb3V0Cg==
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 20:59:54 GMT
+  recorded_at: Sat, 31 Aug 2013 10:11:33 GMT
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/003acb404098/attach?logs=true&stdout=true&stream=false
+    uri: http://10.0.6.2:4243/containers/1df4d7a0ef4d/attach?logs=true&stdout=true&stream=false
     body:
       encoding: US-ASCII
       string: ''
@@ -65,115 +65,5 @@ http_interactions:
       string: !binary |-
         c3Rkb3V0Cg==
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:04:32 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/8b353ded3343/attach?logs=true&stdout=true&stream=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        c3Rkb3V0Cg==
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:09:55 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/5cda854c7f2b/attach?logs=true&stdout=true&stream=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        c3Rkb3V0Cg==
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:21:21 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/c0ee7f9ab39a/attach?logs=true&stdout=true&stream=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        c3Rkb3V0Cg==
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:25:46 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/1c460cabb1ab/attach?logs=true&stdout=true&stream=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        c3Rkb3V0Cg==
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:26:53 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/7fe249af9595/attach?logs=true&stdout=true&stream=false
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        c3Rkb3V0Cg==
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:37:45 GMT
+  recorded_at: Wed, 18 Sep 2013 17:40:08 GMT
 recorded_with: VCR 2.5.0

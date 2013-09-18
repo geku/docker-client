@@ -2,170 +2,29 @@
 http_interactions:
 - request:
     method: post
-    uri: http://10.0.5.5:4243/containers/ae19ed6ad4f6/attach?stdout=1&stream=1
+    uri: http://10.0.6.2:4243/containers/3c1020ed098a/attach?stdout=1&stream=1
     body:
       encoding: US-ASCII
       string: ''
     headers: {}
   response:
     status:
-      code: 200
+      code: 404
       message: !binary |-
-        T0s=
+        Tm90IEZvdW5k
     headers:
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MzI=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAzMSBBdWcgMjAxMyAyMTozOToyOCBHTVQ=
     body:
       encoding: US-ASCII
       string: ''
     http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:09:37 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/d7c4f0a4d3f7/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:12:25 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/7e0ee7d10b70/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:14:41 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/38329f467a4c/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:16:33 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/b3962d5b8de6/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:17:13 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/2cc41f9cb206/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:18:48 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/4f092237fdba/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:19:06 GMT
-- request:
-    method: post
-    uri: http://10.0.5.5:4243/containers/6ce0aa6fb8a6/attach?stdout=1&stream=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vdm5kLmRvY2tlci5yYXctc3RyZWFt
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Mon, 03 Jun 2013 21:19:25 GMT
+  recorded_at: Sat, 31 Aug 2013 21:39:29 GMT
 recorded_with: VCR 2.5.0

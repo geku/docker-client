@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Docker::API do
-  subject { Docker::API.new(base_url: 'http://10.0.5.5:4243') }
+  subject { docker_resource }
   
   it "provides a container resource" do
     subject.containers.should be_kind_of(Docker::Resource::Container)

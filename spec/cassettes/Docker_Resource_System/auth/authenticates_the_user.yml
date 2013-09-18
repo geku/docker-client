@@ -1,0 +1,31 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/auth
+    body:
+      encoding: UTF-8
+      string: ! '{"username":"geku","email":"spam@besure.ch","password":"hz456efl;"}'
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyNyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJTdGF0dXMiOiJMb2dpbiBTdWNjZWVkZWQifQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:28 GMT
+recorded_with: VCR 2.5.0

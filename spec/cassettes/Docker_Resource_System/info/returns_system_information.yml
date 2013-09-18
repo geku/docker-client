@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/info
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjM5
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyNiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJEZWJ1ZyI6ZmFsc2UsIkNvbnRhaW5lcnMiOjc0LCJJbWFnZXMiOjQzLCJO
+        RmQiOjY1LCJOR29yb3V0aW5lcyI6NzksIk1lbW9yeUxpbWl0Ijp0cnVlLCJJ
+        UHY0Rm9yd2FyZGluZyI6dHJ1ZSwiTFhDVmVyc2lvbiI6IjAuOS4wIiwiTkV2
+        ZW50c0xpc3RlbmVyIjozNDcsIktlcm5lbFZlcnNpb24iOiIzLjguMC0yOS1n
+        ZW5lcmljIiwiSW5kZXhTZXJ2ZXJBZGRyZXNzIjoiaHR0cHM6Ly9pbmRleC5k
+        b2NrZXIuaW8vdjEvIn0=
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:40:26 GMT
+recorded_with: VCR 2.5.0
