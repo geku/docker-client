@@ -143,4 +143,88 @@ http_interactions:
         Q29uZmxpY3QsIGY1MmU2MTRhMmEzOSB3YXNuJ3QgZGVsZXRlZAo=
     http_version: 
   recorded_at: Wed, 18 Sep 2013 17:40:21 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/images/c47cd4a8373c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1ODoyMiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siRGVsZXRlZCI6ImM0N2NkNGE4MzczYyJ9XQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:58:22 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/images/84f6b712bcc8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1ODo0NyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siRGVsZXRlZCI6Ijg0ZjZiNzEyYmNjOCJ9XQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:58:47 GMT
+- request:
+    method: delete
+    uri: http://10.0.6.2:4243/images/702b8bc300c2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1OToxMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siRGVsZXRlZCI6IjcwMmI4YmMzMDBjMiJ9XQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:59:11 GMT
 recorded_with: VCR 2.5.0

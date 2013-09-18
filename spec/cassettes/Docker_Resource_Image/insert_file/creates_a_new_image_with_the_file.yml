@@ -57,33 +57,6 @@ http_interactions:
     http_version: 
   recorded_at: Sat, 31 Aug 2013 10:07:51 GMT
 - request:
-    method: post
-    uri: http://10.0.6.2:4243/images/base/insert?path=/tmp/new_file&url=https://raw.github.com/geku/docker-client/master/README.md
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: !binary |-
-        T0s=
-    headers:
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbg==
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAxOCBTZXAgMjAxMyAxNzo0MDoyNCBHTVQ=
-      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
-      - !binary |-
-        Y2h1bmtlZA==
-    body:
-      encoding: US-ASCII
-      string: ''
-    http_version: 
-  recorded_at: Wed, 18 Sep 2013 17:40:25 GMT
-- request:
     method: get
     uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22b10e6568a732%22%7D/json
     body:
@@ -111,4 +84,342 @@ http_interactions:
         Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImIxMGU2NTY4YTczMiJ9Cg==
     http_version: 
   recorded_at: Wed, 18 Sep 2013 17:40:25 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%2207aecb561cf2%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1MzoxOSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6IjA3YWVjYjU2MWNmMiJ9Cg==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:53:19 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22da95a32803fc%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1NTowNiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImRhOTVhMzI4MDNmYyJ9Cg==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:55:07 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22db4763613851%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1NTozNiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImRiNDc2MzYxMzg1MSJ9Cg==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:55:37 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images//json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 301
+      message: !binary |-
+        TW92ZWQgUGVybWFuZW50bHk=
+    headers:
+      !binary "TG9jYXRpb24=":
+      - !binary |-
+        L2ltYWdlcy9qc29u
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1Njo0MSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:56:41 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22d9b8bc92d343%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1NzowMyBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6ImQ5YjhiYzkyZDM0MyJ9Cg==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:57:03 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/%7B%22Id%22:%22836210750f3b%22%7D/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: !binary |-
+        Tm90IEZvdW5k
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzc=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1NzoyMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Tm8gc3VjaCBpbWFnZTogeyJJZCI6IjgzNjIxMDc1MGYzYiJ9Cg==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:57:21 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/c47cd4a8373c/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODYy
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1ODoyMSBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImM0N2NkNGE4MzczY2RhOTBlMTAxOTQ0MjVkMGE5NjUwZmNjMTNl
+        ODA3NzM0ZDFjMmNlODY4MzVmMDE1YjAyZGYiLCJwYXJlbnQiOiJiNzUwZmU3
+        OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNjYjJjMjFk
+        NTg5ZmYyZjVmMmRjIiwiY3JlYXRlZCI6IjIwMTMtMDktMThUMTk6NTg6MjEu
+        NzIxOTczNTIrMDI6MDAiLCJjb250YWluZXIiOiI2YWNlNmViNTgyMzdlNWZi
+        MmUxYmY3NWU3MTFhMzEzZGNlODExMTllYTM4YmRmZTE0YjYwMDg0NDlkYzA2
+        NTUxIiwiY29udGFpbmVyX2NvbmZpZyI6eyJIb3N0bmFtZSI6IjZhY2U2ZWI1
+        ODIzNyIsIlVzZXIiOiIiLCJNZW1vcnkiOjAsIk1lbW9yeVN3YXAiOjAsIkNw
+        dVNoYXJlcyI6MCwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQi
+        OnRydWUsIkF0dGFjaFN0ZGVyciI6dHJ1ZSwiUG9ydFNwZWNzIjpudWxsLCJU
+        dHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNl
+        LCJFbnYiOm51bGwsIkNtZCI6WyJlY2hvIiwiaW5zZXJ0IiwiaHR0cHM6Ly9y
+        YXcuZ2l0aHViLmNvbS9nZWt1L2RvY2tlci1jbGllbnQvbWFzdGVyL1JFQURN
+        RS5tZCIsIi90bXAvbmV3X2ZpbGUiXSwiRG5zIjpudWxsLCJJbWFnZSI6ImI3
+        NTBmZTc5MjY5ZDJlYzlhM2M1OTNlZjA1YjQzMzJiMWQxYTAyYTYyYjRhY2Ni
+        MmMyMWQ1ODlmZjJmNWYyZGMiLCJWb2x1bWVzIjp7fSwiVm9sdW1lc0Zyb20i
+        OiIiLCJXb3JraW5nRGlyIjoiIiwiRW50cnlwb2ludCI6W10sIk5ldHdvcmtE
+        aXNhYmxlZCI6ZmFsc2UsIlByaXZpbGVnZWQiOmZhbHNlfSwiZG9ja2VyX3Zl
+        cnNpb24iOiIwLjYuMSIsImFyY2hpdGVjdHVyZSI6Ing4Nl82NCIsIlNpemUi
+        OjE4NzY4fQ==
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:58:22 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/84f6b712bcc8/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODYz
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1ODo0NiBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6Ijg0ZjZiNzEyYmNjOGNmNzFjOTRmZDMwNjM1MzliMTBjN2JmNmZh
+        MmU4YmVkMzIzYzllZGUzOGYxYjdkODAyMGQiLCJwYXJlbnQiOiJiNzUwZmU3
+        OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNjYjJjMjFk
+        NTg5ZmYyZjVmMmRjIiwiY3JlYXRlZCI6IjIwMTMtMDktMThUMTk6NTg6NDYu
+        NzE0NjI5NTI2KzAyOjAwIiwiY29udGFpbmVyIjoiMzgzMzc2MjE1MjI1M2U0
+        MDA4ZDU2MWUzODI4YTk4MDY5MDkyY2UxYWEyZTQyZWZkNDg1NzkxYzBlMTdm
+        NTdmMyIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiIzODMzNzYy
+        MTUyMjUiLCJVc2VyIjoiIiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJD
+        cHVTaGFyZXMiOjAsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0
+        Ijp0cnVlLCJBdHRhY2hTdGRlcnIiOnRydWUsIlBvcnRTcGVjcyI6bnVsbCwi
+        VHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxz
+        ZSwiRW52IjpudWxsLCJDbWQiOlsiZWNobyIsImluc2VydCIsImh0dHBzOi8v
+        cmF3LmdpdGh1Yi5jb20vZ2VrdS9kb2NrZXItY2xpZW50L21hc3Rlci9SRUFE
+        TUUubWQiLCIvdG1wL25ld19maWxlIl0sIkRucyI6bnVsbCwiSW1hZ2UiOiJi
+        NzUwZmU3OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNj
+        YjJjMjFkNTg5ZmYyZjVmMmRjIiwiVm9sdW1lcyI6e30sIlZvbHVtZXNGcm9t
+        IjoiIiwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOltdLCJOZXR3b3Jr
+        RGlzYWJsZWQiOmZhbHNlLCJQcml2aWxlZ2VkIjpmYWxzZX0sImRvY2tlcl92
+        ZXJzaW9uIjoiMC42LjEiLCJhcmNoaXRlY3R1cmUiOiJ4ODZfNjQiLCJTaXpl
+        IjoxODc2OH0=
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:58:46 GMT
+- request:
+    method: post
+    uri: http://10.0.6.2:4243/images/base/insert?path=/tmp/new_file&url=https://raw.github.com/geku/docker-client/master/README.md
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1OToxMCBHTVQ=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:59:11 GMT
+- request:
+    method: get
+    uri: http://10.0.6.2:4243/images/702b8bc300c2/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODYz
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOCBTZXAgMjAxMyAxNzo1OToxMCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6IjcwMmI4YmMzMDBjMjgwOWQ2MTcwZDhlMDM1NWMyMmNmNWQ0Yzk1
+        MjY3ZDMzODA5MjU2NTMwMDE3ZDYxM2Q1ZTEiLCJwYXJlbnQiOiJiNzUwZmU3
+        OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNjYjJjMjFk
+        NTg5ZmYyZjVmMmRjIiwiY3JlYXRlZCI6IjIwMTMtMDktMThUMTk6NTk6MTAu
+        ODE0MDU0NjcyKzAyOjAwIiwiY29udGFpbmVyIjoiOWJhZjMwZTY2NTk4N2Fi
+        MmZmMDIwY2QzYzlmNTNkOTBjNjIzNDczZjIyN2MzNjJkMDhmOGI0YTIwNDUy
+        MWFhMCIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiI5YmFmMzBl
+        NjY1OTgiLCJVc2VyIjoiIiwiTWVtb3J5IjowLCJNZW1vcnlTd2FwIjowLCJD
+        cHVTaGFyZXMiOjAsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0
+        Ijp0cnVlLCJBdHRhY2hTdGRlcnIiOnRydWUsIlBvcnRTcGVjcyI6bnVsbCwi
+        VHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxz
+        ZSwiRW52IjpudWxsLCJDbWQiOlsiZWNobyIsImluc2VydCIsImh0dHBzOi8v
+        cmF3LmdpdGh1Yi5jb20vZ2VrdS9kb2NrZXItY2xpZW50L21hc3Rlci9SRUFE
+        TUUubWQiLCIvdG1wL25ld19maWxlIl0sIkRucyI6bnVsbCwiSW1hZ2UiOiJi
+        NzUwZmU3OTI2OWQyZWM5YTNjNTkzZWYwNWI0MzMyYjFkMWEwMmE2MmI0YWNj
+        YjJjMjFkNTg5ZmYyZjVmMmRjIiwiVm9sdW1lcyI6e30sIlZvbHVtZXNGcm9t
+        IjoiIiwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOltdLCJOZXR3b3Jr
+        RGlzYWJsZWQiOmZhbHNlLCJQcml2aWxlZ2VkIjpmYWxzZX0sImRvY2tlcl92
+        ZXJzaW9uIjoiMC42LjEiLCJhcmNoaXRlY3R1cmUiOiJ4ODZfNjQiLCJTaXpl
+        IjoxODc2OH0=
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:59:11 GMT
 recorded_with: VCR 2.5.0

@@ -50,7 +50,7 @@ describe Docker::Resource::Image do
     end
   end
   
-  describe "insert_file", :vcr do
+  describe "insert_file", :vcr, :live do
     after {
       details = image.show(@new_image_id)
       delete_containers(details['container'])
@@ -61,6 +61,7 @@ describe Docker::Resource::Image do
       result = image.insert_file('base', '/tmp/new_file', 'https://raw.github.com/geku/docker-client/master/README.md')
       result.should be_kind_of(Hash)
       result.should have_key('Id')
+      
       @new_image_id = result['Id']
       @new_image_id.should_not be_nil
     end

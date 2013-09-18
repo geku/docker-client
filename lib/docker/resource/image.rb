@@ -30,7 +30,8 @@ class Docker::Resource::Image < Docker::Resource::Base
     response = @connection.stream("/images/#{name}/insert", params, timeout) do |data|
       output << data
     end
-    {'Id' => output.last.strip}
+    
+    MultiJson.load(output.last)
   end
   
   
